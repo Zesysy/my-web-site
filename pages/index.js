@@ -1,6 +1,9 @@
+import NavBarHeader from "../components/NavbarHeader";
+
 const Index = () => (
   <div>
-    <p>In loading...</p>
+    <NavBarHeader />
+    <p>Page d'accueil</p>
   </div>
 );
 
