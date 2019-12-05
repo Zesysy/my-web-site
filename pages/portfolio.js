@@ -1,6 +1,8 @@
+import Layout from "../components/Layout";
+
 const Portfolio = () => (
   <div>
-    <p>Page du portfolio</p>
+    <Layout>Page du portfolio</Layout>
   </div>
 );
 

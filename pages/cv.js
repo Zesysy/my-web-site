@@ -1,6 +1,8 @@
+import Layout from "../components/Layout";
+
 const Cv = () => (
   <div>
-    <p>Page du CV</p>
+    <Layout>Page du CV</Layout>
   </div>
 );
 

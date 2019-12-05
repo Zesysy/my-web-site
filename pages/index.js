@@ -1,9 +1,8 @@
-import NavBarHeader from "../components/NavbarHeader";
+import Layout from "../components/Layout";
 
 const Index = () => (
   <div>
-    <NavBarHeader />
-    <p>Page d'accueil</p>
+    <Layout>Page d'accueil</Layout>
   </div>
 );
 
