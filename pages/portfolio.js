@@ -1,4 +1,4 @@
-import Layout from "../components/Layout";
+import Layout from "../components/structure/Layout";
 
 const Portfolio = () => <Layout>Page du portfolio</Layout>;
 

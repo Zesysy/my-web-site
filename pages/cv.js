@@ -1,4 +1,4 @@
-import Layout from "../components/Layout";
+import Layout from "../components/structure/Layout";
 
 const Cv = () => <Layout>Page du CV</Layout>;
 

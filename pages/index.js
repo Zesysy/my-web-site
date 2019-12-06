@@ -1,5 +1,5 @@
-import Layout from "../components/Layout";
+import Layout from "../components/structure/Layout";
 
-const Index = () => <Layout>Page d'accueil</Layout>;
+const Home = () => <Layout>Page d'accueil</Layout>;
 
-export default Index;
+export default Home;
