@@ -1,9 +1,5 @@
 import Layout from "../components/Layout";
 
-const Contact = () => (
-  <div>
-    <Layout>Page de contact</Layout>
-  </div>
-);
+const Contact = () => <Layout>Page de contact</Layout>;
 
 export default Contact;

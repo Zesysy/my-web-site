@@ -1,9 +1,5 @@
 import Layout from "../components/Layout";
 
-const Cv = () => (
-  <div>
-    <Layout>Page du CV</Layout>
-  </div>
-);
+const Cv = () => <Layout>Page du CV</Layout>;
 
 export default Cv;

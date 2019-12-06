@@ -1,9 +1,5 @@
 import Layout from "../components/Layout";
 
-const Portfolio = () => (
-  <div>
-    <Layout>Page du portfolio</Layout>
-  </div>
-);
+const Portfolio = () => <Layout>Page du portfolio</Layout>;
 
 export default Portfolio;
