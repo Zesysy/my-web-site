@@ -16,6 +16,9 @@
   "dependencies": {
     "next": "^9.1.4",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
-  }
+    "react-dom": "^16.12.0",
+    "react-typewriter-hook": "^1.0.1",
+    "reactstrap": "^8.2.0"
+  },
+  "devDependencies": {}
 }
