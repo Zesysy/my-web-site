@@ -1,10 +1,10 @@
 import Layout from "../components/structure/Layout";
-import TypeWriter from "../components/TypeWriter";
+import About from "../components/structure/About";
 
 const Home = () => (
   <Layout>
     <section>
-      <TypeWriter />
+      <About />
     </section>
   </Layout>
 );

@@ -17,16 +17,11 @@ const WithHead = () => {
           crossorigin="anonymous"
         />
       </Head>
-      <style jsx>
-        {`
-          body {
-            min-height: 100%;
-            margin: 0;
-            padding: 0;
-            position: relative;
-          }
-        `}
-      </style>
+      <style jsx global>{`
+        body {
+          background: #fefdf0;
+        }
+      `}</style>
     </>
   );
 };
