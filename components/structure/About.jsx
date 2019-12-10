@@ -1,6 +1,7 @@
 import { Row, Col } from "reactstrap";
 
 import TypeWriter from "../TypeWriter";
+import SocialNetworks from "./SocialNetworks";
 
 const About = () => {
   return (
@@ -24,12 +25,18 @@ const About = () => {
           </Col>
           <img src="/static/images/myPicture.webp" alt="Ma photo" />
         </Row>
+        <Row className="justify-content-center m-0">
+          <SocialNetworks size="3" />
+        </Row>
       </section>
       <style jsx>
         {`
           p {
             font-size: 1.2em;
             text-align: justify;
+          }
+          a :hover {
+            color: red;
           }
         `}
       </style>

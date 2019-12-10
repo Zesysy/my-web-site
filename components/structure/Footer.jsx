@@ -1,6 +1,8 @@
 import { useRouter } from "next/router";
 import { Row } from "reactstrap";
 
+import SocialNetworks from "./SocialNetworks";
+
 const Footer = () => {
   const router = useRouter();
 
@@ -9,25 +11,8 @@ const Footer = () => {
     return (
       <>
         <footer>
-          <Row className="justify-content-center">
-            <a
-              className="fab fa-github-square fa-2x m-2"
-              style={{ color: "gray" }}
-              href="https://github.com/Zesysy"
-              target="_blank"
-            />
-            <a
-              className="fab fa-gitlab fa-2x m-2"
-              style={{ color: "gray" }}
-              href="https://gitlab.com/Zesysy"
-              target="_blank"
-            />
-            <a
-              className="fab fa-linkedin fa-2x m-2"
-              style={{ color: "gray" }}
-              href="https://www.linkedin.com/in/sylene-manusset/"
-              target="_blank"
-            />
+          <Row className="justify-content-center m-0">
+            <SocialNetworks size="2" />
           </Row>
         </footer>
         <style jsx>
