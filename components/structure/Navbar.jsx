@@ -12,7 +12,7 @@ const NavBarHeader = () => {
   const items = [
     { link: "/", label: "Acceuil" },
     { link: "/portfolio", label: "Portfolio" },
-    { link: "/cv", label: "CV" },
+    { link: "/resume", label: "CV" },
     { link: "/contact", label: "Contact" }
   ];
 

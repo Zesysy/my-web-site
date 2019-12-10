@@ -1,6 +1,6 @@
 import { Row, Col } from "reactstrap";
 
-import TypeWriter from "../TypeWriter";
+import TypeWriter from "./TypeWriter";
 import SocialNetworks from "./SocialNetworks";
 
 const About = () => {
@@ -16,7 +16,7 @@ const About = () => {
         <Row className="m-0 justify-content-center">
           <Col lg="4" className="m-3">
             <TypeWriter />
-            <p>
+            <p className="textHomePage">
               Il y a un an j'ai changé de direction. J'ai lâché mes aiguilles et
               raccroché ma blouse pour un nouveau défi! Après neuf mois de
               formation à la Wild Code School, je suis à la recherche d'une
@@ -31,12 +31,9 @@ const About = () => {
       </section>
       <style jsx>
         {`
-          p {
+          .textHomePage {
             font-size: 1.2em;
             text-align: justify;
-          }
-          a :hover {
-            color: red;
           }
         `}
       </style>

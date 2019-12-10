@@ -9,7 +9,7 @@ const SocialNetworks = ({ size }) => {
       {items.map((item, key) => (
         <a
           key={key}
-          className={`fab fa-${item.logo} fa-${size}x m-2`}
+          className={`fab fa-${item.logo} fa-${size}x m-2 linkSocialNetwork`}
           style={{ color: "gray" }}
           href={item.link}
           target="_blank"
@@ -18,7 +18,7 @@ const SocialNetworks = ({ size }) => {
       {size === "3" ? (
         <style jsx>
           {`
-            a:hover {
+            .linkSocialNetwork:hover {
               color: var(--info) !important;
               text-decoration: none;
             }
@@ -27,7 +27,7 @@ const SocialNetworks = ({ size }) => {
       ) : (
         <style jsx>
           {`
-            a:hover {
+            .linkSocialNetwork:hover {
               text-decoration: none;
             }
           `}

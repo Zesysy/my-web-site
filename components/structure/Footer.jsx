@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import { Row } from "reactstrap";
 
-import SocialNetworks from "./SocialNetworks";
+import SocialNetworks from "../SocialNetworks";
 
 const Footer = () => {
   const router = useRouter();
