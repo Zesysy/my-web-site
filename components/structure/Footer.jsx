@@ -23,6 +23,7 @@ const Footer = () => {
               bottom: 0;
               left: 0;
               right: 0;
+              height: 47px;
             }
           `}
         </style>
@@ -30,6 +31,7 @@ const Footer = () => {
     );
   } else {
     return (
+      // TODO : review footer's height
       <>
         <footer>
           <p>Sylène Manusset | 2019</p>
@@ -43,6 +45,10 @@ const Footer = () => {
               bottom: 0;
               left: 0;
               right: 0;
+              height: 47px;
+            }
+            p {
+              position: absolute;
             }
           `}
         </style>
