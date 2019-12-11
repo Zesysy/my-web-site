@@ -4,6 +4,7 @@ import {
   faEnvelopeOpenText,
   faMobileAlt
 } from "@fortawesome/free-solid-svg-icons";
+import { Row, Col } from "reactstrap";
 
 const ResumeHeader = () => {
   const items = [
@@ -23,37 +24,43 @@ const ResumeHeader = () => {
   ];
 
   return (
-    <>
-      <h3>Sylène Manusset</h3>
-      <ul style={{ listStyle: "none" }}>
-        {items.map((item, key) => (
-          <li key={key}>
-            {item.href ? (
-              <a href={item.href} target="_blank">
-                <FontAwesomeIcon
-                  icon={item.logo}
-                  color="gray"
-                  fixedWidth={true}
-                />{" "}
-                {item.label}
-              </a>
-            ) : (
-              <i>
-                <FontAwesomeIcon
-                  icon={item.logo}
-                  color="gray"
-                  fixedWidth={true}
-                />{" "}
-                {item.label}
-              </i>
-            )}
-          </li>
-        ))}
-      </ul>
-      <h3>
-        {"/*"} Développeur Web Junior, en recherche d’opportunités {"*/"}
-      </h3>
-    </>
+    <section>
+      <Row className="m-0 mt-3">
+        <Col lg="10">
+          <h3>Sylène Manusset</h3>
+          <h4 className="text-center">
+            {"/*"} Développeur Web Junior, en recherche d’opportunités {"*/"}
+          </h4>
+        </Col>
+        <Col lg="2">
+          <ul style={{ listStyle: "none" }}>
+            {items.map((item, key) => (
+              <li key={key}>
+                {item.href ? (
+                  <a href={item.href} target="_blank">
+                    <FontAwesomeIcon
+                      icon={item.logo}
+                      color="gray"
+                      fixedWidth={true}
+                    />{" "}
+                    {item.label}
+                  </a>
+                ) : (
+                  <i>
+                    <FontAwesomeIcon
+                      icon={item.logo}
+                      color="gray"
+                      fixedWidth={true}
+                    />{" "}
+                    {item.label}
+                  </i>
+                )}
+              </li>
+            ))}
+          </ul>
+        </Col>
+      </Row>
+    </section>
   );
 };
 
