@@ -25,6 +25,7 @@ const About = () => {
           </Col>
           <img src="/static/images/myPicture.webp" alt="Ma photo" />
         </Row>
+
         <Row className="justify-content-center m-0">
           <SocialNetworks size="3x" />
         </Row>

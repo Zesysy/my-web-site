@@ -11,8 +11,8 @@ const NavBarHeader = () => {
 
   const items = [
     { link: "/", label: "Accueil" },
-    { link: "/portfolio", label: "Portfolio" },
     { link: "/resume", label: "CV" },
+    { link: "/portfolio", label: "Portfolio" },
     { link: "/contact", label: "Contact" }
   ];
 
