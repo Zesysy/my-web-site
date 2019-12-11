@@ -1,5 +1,7 @@
 import { useRouter } from "next/router";
 import { Row } from "reactstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCopyright } from "@fortawesome/free-regular-svg-icons";
 
 import SocialNetworks from "../SocialNetworks";
 
@@ -23,7 +25,6 @@ const Footer = () => {
               bottom: 0;
               left: 0;
               right: 0;
-              height: 47px;
             }
           `}
         </style>
@@ -31,11 +32,18 @@ const Footer = () => {
     );
   } else {
     return (
-      // TODO : review footer's height
       <>
         <footer>
           <Row className="justify-content-center m-0">
-            <p>Sylène Manusset | 2019</p>
+            <i className="m-2">
+              <FontAwesomeIcon
+                icon={faCopyright}
+                className="align-middle"
+                color="gray"
+                size="2x"
+              />{" "}
+              Sylène Manusset | 2019
+            </i>
           </Row>
         </footer>
         <style jsx>
@@ -47,10 +55,6 @@ const Footer = () => {
               bottom: 0;
               left: 0;
               right: 0;
-              height: 47px;
-            }
-            p {
-              position: absolute;
             }
           `}
         </style>
