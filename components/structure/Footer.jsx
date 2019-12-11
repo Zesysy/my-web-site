@@ -1,5 +1,9 @@
 import { useRouter } from "next/router";
 import { Row } from "reactstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCopyright } from "@fortawesome/free-regular-svg-icons";
+
+import SocialNetworks from "../SocialNetworks";
 
 const Footer = () => {
   const router = useRouter();
@@ -9,25 +13,8 @@ const Footer = () => {
     return (
       <>
         <footer>
-          <Row className="justify-content-center">
-            <a
-              className="fab fa-github-square fa-2x m-2"
-              style={{ color: "gray" }}
-              href="https://github.com/Zesysy"
-              target="_blank"
-            />
-            <a
-              className="fab fa-gitlab fa-2x m-2"
-              style={{ color: "gray" }}
-              href="https://gitlab.com/Zesysy"
-              target="_blank"
-            />
-            <a
-              className="fab fa-linkedin fa-2x m-2"
-              style={{ color: "gray" }}
-              href="https://www.linkedin.com/in/sylene-manusset/"
-              target="_blank"
-            />
+          <Row className="justify-content-center m-0">
+            <SocialNetworks size="2x" />
           </Row>
         </footer>
         <style jsx>
@@ -47,7 +34,17 @@ const Footer = () => {
     return (
       <>
         <footer>
-          <p>Sylène Manusset | 2019</p>
+          <Row className="justify-content-center m-0">
+            <i className="m-2">
+              <FontAwesomeIcon
+                icon={faCopyright}
+                className="align-middle"
+                color="gray"
+                size="2x"
+              />{" "}
+              Sylène Manusset | 2019
+            </i>
+          </Row>
         </footer>
         <style jsx>
           {`

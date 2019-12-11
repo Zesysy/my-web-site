@@ -24,20 +24,23 @@ const TypeWriter = () => {
   return (
     <>
       <Col className="writer">
-        <h2>
+        <h2 className="h2HomePage">
           <span className="hello">Hello World !</span> Moi c'est Sylène !
         </h2>
-        <h2>Bienvenue sur mon Portfolio réalisé avec NextJs</h2>
-        <h3 className="cursor">Je suis {text}</h3>
+        <h2 className="h2HomePage">
+          Bienvenue sur mon Portfolio réalisé avec NextJs
+        </h2>
+        <h3 className="h3HomePage">Je suis {text}</h3>
       </Col>
       <style jsx>
         {`
           .writer {
             text-align: center;
           }
-          .cursor {
+          .h3HomePage {
             display: inline-block;
             position: relative;
+            margin-left: 20%;
           }
           .cursor::after {
             content: "";
@@ -53,11 +56,8 @@ const TypeWriter = () => {
           .hello {
             font-family: Courier New, Courier, monospace;
           }
-          h2 {
+          .h2HomePage {
             text-align: center;
-          }
-          h3 {
-            margin-left: 20%;
           }
         `}
       </style>
