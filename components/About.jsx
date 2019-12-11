@@ -26,7 +26,7 @@ const About = () => {
           <img src="/static/images/myPicture.webp" alt="Ma photo" />
         </Row>
         <Row className="justify-content-center m-0">
-          <SocialNetworks size="3" />
+          <SocialNetworks size="3x" />
         </Row>
       </section>
       <style jsx>

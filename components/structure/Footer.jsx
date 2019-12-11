@@ -12,7 +12,7 @@ const Footer = () => {
       <>
         <footer>
           <Row className="justify-content-center m-0">
-            <SocialNetworks size="2" />
+            <SocialNetworks size="2x" />
           </Row>
         </footer>
         <style jsx>
@@ -34,7 +34,9 @@ const Footer = () => {
       // TODO : review footer's height
       <>
         <footer>
-          <p>Sylène Manusset | 2019</p>
+          <Row className="justify-content-center m-0">
+            <p>Sylène Manusset | 2019</p>
+          </Row>
         </footer>
         <style jsx>
           {`

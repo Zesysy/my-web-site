@@ -10,7 +10,7 @@ const NavBarHeader = () => {
   const toggle = () => setIsOpen(!isOpen); // The function that allows you to control the opening of the Toggle
 
   const items = [
-    { link: "/", label: "Acceuil" },
+    { link: "/", label: "Accueil" },
     { link: "/portfolio", label: "Portfolio" },
     { link: "/resume", label: "CV" },
     { link: "/contact", label: "Contact" }
