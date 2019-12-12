@@ -17,7 +17,7 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUserNurse } from "@fortawesome/free-solid-svg-icons";
 import { Row, Col } from "reactstrap";
-import ReduxLogo from "./ReduxIcon";
+import ReduxLogo from "../ReduxIcon";
 
 const Skills = () => {
   const itemsEnvironment = [
@@ -40,9 +40,10 @@ const Skills = () => {
     { logo: faCss3, color: "#53a7dc", title: "CSS3" },
     { logo: faJsSquare, color: "#f1de4f", title: "JavaScript" },
     { logo: faReact, color: "#62d4fa", title: "ReactJs" },
-    { logo: "redux", title: "Redux" },
+    { logo: "redux" },
     { logo: faNodeJs, color: "#43853d", title: "NodeJs" },
     { logo: faBootstrap, color: "#563d7c", title: "Bootstrap" }
+
     // {
     //   logo: faJava,
     //   color: "#2e68ab",
@@ -92,12 +93,11 @@ const Skills = () => {
             {itemsDevlopment.map((item, key) => (
               <Fragment key={key}>
                 {item.logo === "redux" ? (
-                  <ReduxLogo />
+                  <ReduxLogo id="redux" />
                 ) : item.comment ? (
                   <>
                     <FontAwesomeIcon
                       icon={item.logo}
-                      key={key}
                       className="align-middle m-2"
                       size="2x"
                       color={item.color}
@@ -108,7 +108,6 @@ const Skills = () => {
                 ) : (
                   <FontAwesomeIcon
                     icon={item.logo}
-                    key={key}
                     className="align-middle m-2"
                     size="2x"
                     color={item.color}
@@ -117,6 +116,7 @@ const Skills = () => {
                 )}
               </Fragment>
             ))}
+            <p className="textSkills">NextJs - Sequelize - MySql - Express</p>
           </Col>
         </Row>
         <Row className="justify-content-between m-0 mt-4">
