@@ -4,6 +4,7 @@ import {
   faLinkedin,
   faGitlab
 } from "@fortawesome/free-brands-svg-icons";
+import PropTypes from "prop-types";
 
 const SocialNetworks = ({ size }) => {
   const items = [
@@ -44,6 +45,10 @@ const SocialNetworks = ({ size }) => {
       )}
     </>
   );
+};
+
+SocialNetworks.propTypes = {
+  size: PropTypes.string
 };
 
 export default SocialNetworks;
