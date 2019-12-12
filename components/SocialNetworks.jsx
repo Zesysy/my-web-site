@@ -16,13 +16,13 @@ const SocialNetworks = ({ size }) => {
   return (
     <>
       {items.map((item, key) => (
-        <a
-          key={key}
-          className="m-2 linkSocialNetwork"
-          href={item.link}
-          target="_blank"
-        >
-          <FontAwesomeIcon icon={item.logo} size={size} color="gray" />
+        <a key={key} className="m-2" href={item.link} target="_blank">
+          <FontAwesomeIcon
+            icon={item.logo}
+            size={size}
+            color="gray"
+            className="linkSocialNetwork"
+          />
         </a>
       ))}
       {size === "3x" ? (
