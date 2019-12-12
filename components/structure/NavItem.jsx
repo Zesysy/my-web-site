@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { NavItem, NavLink } from "reactstrap";
+import PropTypes from "prop-types";
 
 const NavItemCustom = ({ link, label }) => {
   const router = useRouter();
@@ -17,6 +18,11 @@ const NavItemCustom = ({ link, label }) => {
       </Link>
     </NavItem>
   );
+};
+
+NavItemCustom.propTypes = {
+  link: PropTypes.string.isRequired,
+  label: PropTypes.string.isRequired
 };
 
 export default NavItemCustom;
