@@ -12,7 +12,8 @@ import {
   faGit,
   faGithub,
   faGitlab,
-  faTrello
+  faTrello,
+  faSlack
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUserNurse } from "@fortawesome/free-solid-svg-icons";
@@ -56,7 +57,8 @@ const Skills = () => {
     { logo: faGit, color: "#f64d27", title: "Git" },
     { logo: faGithub, color: "#333", title: "Github" },
     { logo: faGitlab, color: "#fc6d26", title: "Gitlab" },
-    { logo: faTrello, color: "#0079bf", title: "Trello" }
+    { logo: faTrello, color: "#0079bf", title: "Trello" },
+    { logo: faSlack, color: "#4A154B", title: "Slack" }
   ];
 
   return (
