@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
 
 const MocalCustom = ({ link, title, modal, toggle, preview, description }) => {
@@ -34,6 +35,15 @@ const MocalCustom = ({ link, title, modal, toggle, preview, description }) => {
       </ModalFooter>
     </Modal>
   );
+};
+
+MocalCustom.propTypes = {
+  modal: PropTypes.func.isRequired,
+  toggle: PropTypes.func.isRequired,
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  preview: PropTypes.string.isRequired,
+  link: PropTypes.string
 };
 
 export default MocalCustom;

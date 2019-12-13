@@ -51,7 +51,7 @@ const Footer = () => {
             footer {
               text-align: center;
               background-color: var(--info);
-              position: absolute;
+              position: fixed;
               bottom: 0;
               left: 0;
               right: 0;
