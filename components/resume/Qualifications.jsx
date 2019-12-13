@@ -1,9 +1,9 @@
 const Qualifications = () => {
   return (
     <>
-      <article>
+      <article className="textQualifications">
         <h4>Diplômes et Formations</h4>
-        <table className="testQualifications">
+        <table>
           <tbody>
             <tr>
               <td>2019</td>
@@ -19,7 +19,7 @@ const Qualifications = () => {
               <td>2018/19</td>
               <td>
                 <strong>Cours Internet: </strong>
-                <ul className="testQualifications">
+                <ul>
                   <li>
                     “Apprenez à créer votre site web avec HTML5 et CSS3” {"&"}{" "}
                     “Apprenez à coder avec JavaScript”,{" "}
@@ -53,10 +53,10 @@ const Qualifications = () => {
       <style jsx>
         {`
           span {
-            color: pink;
+            color: var(--secondary) !important;
             text-align: justify;
           }
-          .testQualifications {
+          .textQualifications {
             font-size: 0.9em;
           }
         `}

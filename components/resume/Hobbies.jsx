@@ -40,6 +40,10 @@ const Hobbies = () => {
           .textHobbies {
             font-size: 0.9em;
           }
+          img:hover {
+            border-radius: 5px;
+            box-shadow: 1px 1px 15px 1px black;
+          }
         `}
       </style>
     </>
