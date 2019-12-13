@@ -31,7 +31,7 @@ const Experiences = () => {
       <style jsx>
         {`
           span {
-            color: pink;
+            color: var(--secondary) !important;
             text-align: justify;
           }
           .textExperiences {
