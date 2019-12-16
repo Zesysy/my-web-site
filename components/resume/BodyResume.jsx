@@ -24,14 +24,16 @@ const BodyResume = () => {
           <Hobbies />{" "}
         </Col>
       </Row>
-      <a
-        tag="button"
-        className="btn btn-secondary float-right mr-4"
-        href="/static/images/myCv.pdf"
-        target="_blank"
-      >
-        Téléchargez au format pdf
-      </a>
+      <Row className="m-2 justify-content-end">
+        <a
+          tag="button"
+          className="btn btn-secondary float-right mr-4"
+          href="/static/images/myCv.pdf"
+          target="_blank"
+        >
+          Téléchargez au format pdf
+        </a>
+      </Row>
     </section>
   );
 };

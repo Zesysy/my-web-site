@@ -23,7 +23,7 @@ const TypeWriter = () => {
 
   return (
     <>
-      <Col className="writer">
+      <Col>
         <h2 className="h2HomePage">
           <span className="hello">Hello World !</span> Moi c'est Sylène !
         </h2>
@@ -34,14 +34,6 @@ const TypeWriter = () => {
       </Col>
       <style jsx>
         {`
-          .writer {
-            text-align: center;
-          }
-          .h3HomePage {
-            display: inline-block;
-            position: relative;
-            margin-left: 20%;
-          }
           .cursor::after {
             content: "";
             margin: auto;
@@ -56,7 +48,8 @@ const TypeWriter = () => {
           .hello {
             font-family: Courier New, Courier, monospace;
           }
-          .h2HomePage {
+          h2,
+          h3 {
             text-align: center;
           }
         `}

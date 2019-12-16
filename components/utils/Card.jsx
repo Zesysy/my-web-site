@@ -1,4 +1,5 @@
 import { useState } from "react";
+import PropTypes from "prop-types";
 import { Card, CardText, CardHeader, CardBody, CardImg } from "reactstrap";
 
 import Modal from "./Modal";
@@ -15,7 +16,7 @@ const CardCustom = ({ title, description, preview, link, subtitle }) => {
           style={{ maxWidth: "20rem" }}
           onClick={toggle}
         >
-          <CardHeader>{title}</CardHeader>
+          <CardHeader className="text-center">{title}</CardHeader>
           <CardImg top width="100%" src={preview} alt="Aperçu du site" />
           <CardBody>
             <CardText>{subtitle}</CardText>
@@ -39,6 +40,14 @@ const CardCustom = ({ title, description, preview, link, subtitle }) => {
       </style>
     </>
   );
+};
+
+CardCustom.propTypes = {
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  preview: PropTypes.string.isRequired,
+  link: PropTypes.string,
+  subtitle: PropTypes.string.isRequired
 };
 
 export default CardCustom;
