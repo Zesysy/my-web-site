@@ -9,14 +9,14 @@ const MocalCustom = ({ link, title, modal, toggle, preview, description }) => {
   );
 
   return (
-    <Modal isOpen={modal}>
+    <Modal isOpen={modal} size="md">
       <ModalHeader toggle={toggle} close={closeBtn}>
         {title}
       </ModalHeader>
       <div className=" ml-auto mr-auto d-block mt-2">
         <img src={preview} alt="aperçu du site" />
       </div>
-      <ModalBody>{description}</ModalBody>
+      <ModalBody className="text-justify">{description}</ModalBody>
       <ModalFooter>
         {link ? (
           <a

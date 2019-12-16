@@ -16,7 +16,7 @@ const CardCustom = ({ title, description, preview, link, subtitle }) => {
           style={{ maxWidth: "20rem" }}
           onClick={toggle}
         >
-          <CardHeader>{title}</CardHeader>
+          <CardHeader className="text-center">{title}</CardHeader>
           <CardImg top width="100%" src={preview} alt="Aperçu du site" />
           <CardBody>
             <CardText>{subtitle}</CardText>

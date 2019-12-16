@@ -1,6 +1,6 @@
 const Hobbies = () => {
   const itemsHobbie = [
-    { text: "<3 Javascript et React" },
+    { text: "❤️ Javascript et React" },
     { text: "Lectures (science fiction, fantaisie, romans…)" },
     { text: "Cinéma, musée, théâtre, voyages, musique" },
     { text: "Cuisiner (surtout les gâteaux 😉)." }
