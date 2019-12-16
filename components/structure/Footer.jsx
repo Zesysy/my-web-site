@@ -19,12 +19,16 @@ const Footer = () => {
         </footer>
         <style jsx>
           {`
+            @media (min-width: 800px) {
+              footer {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+              }
+            }
             footer {
               background-color: var(--info);
-              position: absolute;
-              bottom: 0;
-              left: 0;
-              right: 0;
             }
           `}
         </style>
@@ -48,13 +52,17 @@ const Footer = () => {
         </footer>
         <style jsx>
           {`
+            @media (min-width: 800px) {
+              footer {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+              }
+            }
             footer {
               text-align: center;
               background-color: var(--info);
-              position: fixed;
-              bottom: 0;
-              left: 0;
-              right: 0;
             }
           `}
         </style>

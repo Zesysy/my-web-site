@@ -16,7 +16,9 @@ const MocalCustom = ({ link, title, modal, toggle, preview, description }) => {
       <div className=" ml-auto mr-auto d-block mt-2">
         <img src={preview} alt="aperçu du site" />
       </div>
-      <ModalBody className="text-justify">{description}</ModalBody>
+      <ModalBody>
+        <p>{description}</p>
+      </ModalBody>
       <ModalFooter>
         {link ? (
           <a
@@ -38,7 +40,7 @@ const MocalCustom = ({ link, title, modal, toggle, preview, description }) => {
 };
 
 MocalCustom.propTypes = {
-  modal: PropTypes.func.isRequired,
+  modal: PropTypes.bool.isRequired,
   toggle: PropTypes.func.isRequired,
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
