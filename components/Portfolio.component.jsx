@@ -1,6 +1,6 @@
 import { Row, Col } from "reactstrap";
 
-import Card from "./Card";
+import Card from "./utils/Card";
 
 const PortfolioComponent = () => {
   const items = [

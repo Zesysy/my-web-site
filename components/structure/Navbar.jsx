@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Collapse, Navbar, NavbarToggler, Nav } from "reactstrap";
 import Link from "next/link";
 
-import NavItem from "./NavItem";
+import NavItem from "../utils/NavItem";
 
 const NavBarHeader = () => {
   const [isOpen, setIsOpen] = useState(false); // The state of the Toggle for the burger menu in responsive mode
