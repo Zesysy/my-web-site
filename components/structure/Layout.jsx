@@ -7,6 +7,7 @@ config.autoAddCss = false;
 import Head from "./Head";
 import Header from "./Header";
 import Footer from "./Footer";
+import NetlifyFormHidden from "../utils/NetlifyFormHidden";
 
 const Layout = ({ children }) => {
   return (
@@ -15,6 +16,7 @@ const Layout = ({ children }) => {
       <Header />
       {children}
       <Footer />
+      <NetlifyFormHidden />
     </>
   );
 };

@@ -5,7 +5,7 @@ const Qualifications = () => {
         <h4>Diplômes et Formations</h4>
         <table>
           <tbody>
-            <tr>
+            <tr className="align-top">
               <td>2019</td>
               <td>
                 <strong>
@@ -32,7 +32,7 @@ const Qualifications = () => {
                 </ul>
               </td>
             </tr>
-            <tr>
+            <tr className="align-top">
               <td>2011</td>
               <td>
                 <strong>Diplôme d’Etat infirmier,</strong>{" "}
@@ -40,7 +40,7 @@ const Qualifications = () => {
                 Bayonne
               </td>
             </tr>
-            <tr>
+            <tr className="align-top">
               <td>2006</td>
               <td>
                 <strong>Baccalauréat série scientifique,</strong>{" "}
