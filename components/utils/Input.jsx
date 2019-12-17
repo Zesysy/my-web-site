@@ -19,6 +19,7 @@ const InputCustom = ({
         onChange={handleChange}
         placeholder={placeholder}
         required
+        style={type === "textarea" ? { height: "15rem" } : null}
       />
     </FormGroup>
   );

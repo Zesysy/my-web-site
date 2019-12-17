@@ -6,6 +6,7 @@ const NetlifyFormHidden = () => {
       netlify-honeypot="bot-field"
       hidden
     >
+      <input type="text" name="name" />
       <input type="email" name="email" />
       <textarea name="text" defaultValue={""} />
     </form>
