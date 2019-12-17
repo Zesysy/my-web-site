@@ -1,14 +1,31 @@
-import { Button, Form, FormGroup, Label, Input } from "reactstrap";
+import { Button, Form } from "reactstrap";
 import { useState } from "react";
+import InputCustom from "./utils/Input";
 
 const encode = data => {
   return Object.keys(data)
     .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
     .join("&");
-};
+}; // allows to transform special characters of an url
 
 const ContactForm = () => {
-  const [contact, setContact] = useState({ email: "", text: "" });
+  const [contact, setContact] = useState({ email: "", text: "" }); //initiation of a report with two empty keys
+
+  const items = [
+    {
+      label: "Renseignez votre email",
+      type: "email",
+      name: "email",
+      value: contact.email,
+      placeholder: "prenom.nom@email.fr"
+    },
+    {
+      label: "Votre message",
+      type: "textarea",
+      name: "text",
+      value: contact.text
+    }
+  ];
 
   const handleSubmit = e => {
     fetch("/", {
@@ -18,44 +35,29 @@ const ContactForm = () => {
     })
       .then(() => alert("Success!"))
       .catch(error => alert(error));
-    console.log(contact.email);
-    console.log(contact.text);
-
     e.preventDefault();
-  };
+  }; //post request use recommend by netlify to send the recovered data
 
   const handleChange = ({ currentTarget }) => {
     const { value, name } = currentTarget;
     setContact({ ...contact, [name]: value });
-  };
+  }; // modifies the state by destructuring the data
 
   return (
     <>
       <section className="flexFormContact ">
         <Form onSubmit={e => handleSubmit(e)} style={{ width: "40rem" }}>
-          <FormGroup>
-            <Label for="exampleEmail">Renseignez votre email</Label>
-            <Input
-              type="email"
-              name="email"
-              id="exampleEmail"
-              value={contact.email}
-              onChange={handleChange}
-              placeholder="prenom.nom@email.fr"
-              required
+          {items.map((item, key) => (
+            <InputCustom
+              label={item.label}
+              type={item.type}
+              name={item.name}
+              value={item.value}
+              handleChange={handleChange}
+              placeholder={item.placeholder}
+              key={key}
             />
-          </FormGroup>
-          <FormGroup>
-            <Label for="exampleText">Text Area</Label>
-            <Input
-              type="textarea"
-              name="text"
-              id="exampleText"
-              value={contact.text}
-              onChange={handleChange}
-              required
-            />
-          </FormGroup>
+          ))}
 
           <Button type="submit">Envoyer</Button>
         </Form>
