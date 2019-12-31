@@ -1,4 +1,4 @@
-import { Button, Form } from "reactstrap";
+import { Button, Form, Card, CardHeader, CardBody, Row, Col } from "reactstrap";
 import { useState } from "react";
 import InputCustom from "./utils/Input";
 
@@ -9,18 +9,24 @@ const encode = data => {
 }; // allows to transform special characters of an url
 
 const ContactForm = () => {
-  const [contact, setContact] = useState({ email: "", text: "" }); //initiation of a report with two empty keys
+  const [contact, setContact] = useState({ email: "", text: "", name: "" }); //initiation of a report with two empty keys
 
   const items = [
     {
-      label: "Renseignez votre email",
+      label: "Votre nom :",
+      type: "text",
+      name: "name",
+      value: contact.name
+    },
+    {
+      label: "Votre email :",
       type: "email",
       name: "email",
       value: contact.email,
-      placeholder: "prenom.nom@email.fr"
+      placeholder: "ex: prenom.nom@email.fr"
     },
     {
-      label: "Votre message",
+      label: "Votre message :",
       type: "textarea",
       name: "text",
       value: contact.text
@@ -45,33 +51,35 @@ const ContactForm = () => {
 
   return (
     <>
-      <section className="flexFormContact ">
-        <Form onSubmit={e => handleSubmit(e)} style={{ width: "40rem" }}>
-          {items.map((item, key) => (
-            <InputCustom
-              label={item.label}
-              type={item.type}
-              name={item.name}
-              value={item.value}
-              handleChange={handleChange}
-              placeholder={item.placeholder}
-              key={key}
-            />
-          ))}
-
-          <Button type="submit">Envoyer</Button>
-        </Form>
+      <section>
+        <Row className="justify-content-center m-0 mt-5 mb-5">
+          <Col lg="4">
+            <Card className="border-info card-block justify-content-center">
+              <CardHeader className="text-center">
+                Formulaire de contact
+              </CardHeader>
+              <CardBody>
+                <Form onSubmit={e => handleSubmit(e)}>
+                  {items.map((item, key) => (
+                    <InputCustom
+                      label={item.label}
+                      type={item.type}
+                      name={item.name}
+                      value={item.value}
+                      handleChange={handleChange}
+                      placeholder={item.placeholder}
+                      key={key}
+                    />
+                  ))}
+                  <Row className="justify-content-end">
+                    <Button type="submit">Envoyer</Button>
+                  </Row>
+                </Form>
+              </CardBody>
+            </Card>
+          </Col>
+        </Row>
       </section>
-      <style jsx>
-        {`
-          .flexFormContact {
-            display: flex;
-            height: 80vh;
-            align-items: center;
-            justify-content: center;
-          }
-        `}
-      </style>
     </>
   );
 };

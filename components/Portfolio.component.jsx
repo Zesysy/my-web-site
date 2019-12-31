@@ -14,7 +14,7 @@ const PortfolioComponent = () => {
     },
     {
       title: "Robotici.a blog",
-      subtitle: "Mars/19 : HTML5 - CSS3 - Bootstrap",
+      subtitle: "Mar/19 : HTML5 - CSS3 - Bootstrap",
       preview: "/static/images/roboticiBlog.webp",
       link: "https://zesysy.github.io/robotici.a_blog/",
       description:
@@ -57,24 +57,34 @@ const PortfolioComponent = () => {
       preview: "/static/images/audioWizard.webp",
       description:
         "Lors de mon stage, nous avons travaillé à la création d'une application Web qui serait un outils de suivi de patients d'audioprothésistes. Tout en respectant le Règlement à la Protection de la Donnée, et pensée pour une utilisation bureau et tablette, nous avons développé la possibilité d'enregistrer un nouvel utilisateur, d'enregistrer un patient en le faisant évoluer durant les étapes de sa prise en charge, et cela en liant notre front en ReactJs et notre back en Php. J'ai travaillé tout au long de ce stage à distance, avec des daily en visioconférence, et une grande autonomie de travail. Le site est accessible mais nécessite bien entendu d'avoir un code d'authentification."
+    },
+    {
+      title: "Lovely Movie",
+      subtitle: "Dec/19 : Javascript - ReactJs",
+      link: "https://lovely-movie.netlify.com/",
+      preview: "/static/images/lovelyMovie.webp",
+      description:
+        "Application de recherche de film créée afin de manipuler les hooks, et plus préisément useReducer"
     }
   ];
 
   return (
     <>
-      <Row className="mt-3 m-0">
-        {items.map(({ title, subtitle, preview, link, description }, key) => (
-          <Col lg="3" className="mb-3 mt-3 " key={key}>
-            <Card
-              title={title}
-              subtitle={subtitle}
-              preview={preview}
-              link={link}
-              description={description}
-            />
-          </Col>
-        ))}
-      </Row>
+      <section>
+        <Row className="mt-3 m-0">
+          {items.map(({ title, subtitle, preview, link, description }, key) => (
+            <Col lg="3" className="mb-3 mt-3 " key={key}>
+              <Card
+                title={title}
+                subtitle={subtitle}
+                preview={preview}
+                link={link}
+                description={description}
+              />
+            </Col>
+          ))}
+        </Row>
+      </section>
     </>
   );
 };
