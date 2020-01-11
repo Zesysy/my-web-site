@@ -56,7 +56,7 @@ const PortfolioComponent = () => {
       link: "https://app.audiowizard.fr/#/",
       preview: "/static/images/audioWizard.webp",
       description:
-        "Lors de mon stage, nous avons travaillé à la création d'une application Web qui serait un outils de suivi de patients d'audioprothésistes. Tout en respectant le Règlement à la Protection de la Donnée, et pensée pour une utilisation bureau et tablette, nous avons développé la possibilité d'enregistrer un nouvel utilisateur, d'enregistrer un patient en le faisant évoluer durant les étapes de sa prise en charge, et cela en liant notre front en ReactJs et notre back en Php. J'ai travaillé tout au long de ce stage à distance, avec des daily en visioconférence, et une grande autonomie de travail. Le site est accessible mais nécessite bien entendu d'avoir un code d'authentification."
+        "Lors de mon stage, nous avons travaillé à la création d'une application Web qui sera un outils de suivi de patients d'audioprothésistes. Tout en respectant le Règlement à la Protection de la Donnée, et pensée pour une utilisation bureau et tablette, nous avons développé la possibilité d'enregistrer un nouvel utilisateur, d'enregistrer un patient en le faisant évoluer durant les étapes de sa prise en charge, et cela en liant notre front en ReactJs au back en Php. J'ai travaillé tout au long de ce stage à distance, avec des daily en visioconférence, et une grande autonomie de travail. Le site est accessible mais nécessite bien entendu d'avoir un code d'authentification."
     },
     {
       title: "Lovely Movie",
@@ -64,7 +64,7 @@ const PortfolioComponent = () => {
       link: "https://lovely-movie.netlify.com/",
       preview: "/static/images/lovelyMovie.webp",
       description:
-        "Application de recherche de film créée afin de manipuler les hooks, et plus préisément useReducer"
+        "Application de recherche de film créée afin de manipuler les hooks, et plus précisément useReducer"
     }
   ];
 
