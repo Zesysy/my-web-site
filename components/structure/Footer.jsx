@@ -17,21 +17,41 @@ const Footer = () => {
             <SocialNetworks size="2x" />
           </Row>
         </footer>
-        <style jsx>
-          {`
-            @media (min-width: 800px) {
-              footer {
-                position: fixed;
-                bottom: 0;
-                left: 0;
-                right: 0;
+        {router.pathname === "/portfolio" ? (
+          <style jsx>
+            {`
+              @media (min-width: 800px) {
+                footer {
+                  top: 100%;
+                  bottom: 0;
+                  height: 51px;
+                  left: 0;
+                  right: 0;
+                }
               }
-            }
-            footer {
-              background-color: var(--info);
-            }
-          `}
-        </style>
+              footer {
+                background-color: var(--info);
+              }
+            `}
+          </style>
+        ) : (
+          <style jsx>
+            {`
+              @media (min-width: 800px) {
+                footer {
+                  position: fixed;
+                  bottom: 0;
+                  left: 0;
+                  right: 0;
+                }
+              }
+              footer {
+                text-align: center;
+                background-color: var(--info);
+              }
+            `}
+          </style>
+        )}
       </>
     );
   } else {

@@ -4,7 +4,10 @@ const WithHead = () => {
   return (
     <>
       <Head>
-        <title>Ma petite création</title>
+        <title>
+          Ma petite création - Portfolio d'un développeur javascript - Sylène
+          Manusset
+        </title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link
           rel="stylesheet"
