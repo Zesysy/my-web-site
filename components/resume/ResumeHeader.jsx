@@ -34,7 +34,7 @@ const ResumeHeader = () => {
             </h4>
           </Col>
           <Col lg="2">
-            <ul>
+            <ul id="ulHover">
               {items.map((item, key) => (
                 <li key={key}>
                   {item.href ? (
@@ -64,11 +64,11 @@ const ResumeHeader = () => {
       </section>
       <style>
         {`
-          ul {
+          #ulHover {
             list-style: none;
             border-radius: 5px;
           }
-          ul:hover {
+          ul#ulHover:hover {
             border-radius: 5px;
             box-shadow: 1px 1px 15px 1px black;
           }
