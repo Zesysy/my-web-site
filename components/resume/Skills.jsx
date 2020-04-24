@@ -13,7 +13,7 @@ import {
   faGithub,
   faGitlab,
   faTrello,
-  faSlack
+  faSlack,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUserNurse } from "@fortawesome/free-solid-svg-icons";
@@ -26,14 +26,14 @@ const Skills = () => {
       logo: faUbuntu,
       color: "#e95420",
       text: "Usage quotidien en développement",
-      title: "Ubuntu"
+      title: "Ubuntu",
     },
     {
       logo: faWindows,
       color: "#0078d7",
       text: "Usage personnel",
-      title: "Windows"
-    }
+      title: "Windows",
+    },
   ];
 
   const itemsDevlopment = [
@@ -43,7 +43,7 @@ const Skills = () => {
     { logo: faReact, color: "#62d4fa", title: "ReactJs" },
     { logo: "redux" },
     { logo: faNodeJs, color: "#43853d", title: "NodeJs" },
-    { logo: faBootstrap, color: "#563d7c", title: "Bootstrap" }
+    { logo: faBootstrap, color: "#563d7c", title: "Bootstrap" },
 
     // {
     //   logo: faJava,
@@ -58,7 +58,7 @@ const Skills = () => {
     { logo: faGithub, color: "#333", title: "Github" },
     { logo: faGitlab, color: "#fc6d26", title: "Gitlab" },
     { logo: faTrello, color: "#0079bf", title: "Trello" },
-    { logo: faSlack, color: "#4A154B", title: "Slack" }
+    { logo: faSlack, color: "#4A154B", title: "Slack" },
   ];
 
   return (
@@ -163,7 +163,7 @@ const Skills = () => {
           </Col>
         </Row>
       </article>
-      <style jsx>
+      <style>
         {`
           .textSkills {
             font-size: 0.9em;

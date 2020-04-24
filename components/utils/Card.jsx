@@ -31,7 +31,7 @@ const CardCustom = ({ title, description, preview, link, subtitle }) => {
         link={link ? link : null}
         description={description}
       />
-      <style jsx>
+      <style>
         {`
           .zoomHover:hover {
             transform: scale(1.1);
@@ -47,7 +47,7 @@ CardCustom.propTypes = {
   description: PropTypes.string.isRequired,
   preview: PropTypes.string.isRequired,
   link: PropTypes.string,
-  subtitle: PropTypes.string.isRequired
+  subtitle: PropTypes.string.isRequired,
 };
 
 export default CardCustom;

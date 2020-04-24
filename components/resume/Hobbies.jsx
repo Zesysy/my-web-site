@@ -3,7 +3,7 @@ const Hobbies = () => {
     { text: "❤️ Javascript et React" },
     { text: "Lectures (science fiction, fantaisie, romans…)" },
     { text: "Cinéma, musée, théâtre, voyages, musique" },
-    { text: "Cuisiner (surtout les gâteaux 😉)." }
+    { text: "Cuisiner (surtout les gâteaux 😉)." },
   ];
 
   const itemsPictures = [
@@ -11,8 +11,8 @@ const Hobbies = () => {
     { image: "/static/images/venise.webp", text: "Venise" },
     {
       image: "/static/images/librairiebookstore.webp",
-      text: "Librairie Bookstore, Biarritz"
-    }
+      text: "Librairie Bookstore, Biarritz",
+    },
   ];
   return (
     <>
@@ -35,7 +35,7 @@ const Hobbies = () => {
           />
         ))}
       </article>
-      <style jsx>
+      <style>
         {`
           .textHobbies {
             font-size: 0.9em;

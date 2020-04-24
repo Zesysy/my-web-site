@@ -18,7 +18,7 @@ const Footer = () => {
           </Row>
         </footer>
         {router.pathname === "/portfolio" ? (
-          <style jsx>
+          <style>
             {`
               @media (min-width: 800px) {
                 footer {
@@ -35,7 +35,7 @@ const Footer = () => {
             `}
           </style>
         ) : (
-          <style jsx>
+          <style>
             {`
               @media (min-width: 800px) {
                 footer {
@@ -70,7 +70,7 @@ const Footer = () => {
             </i>
           </Row>
         </footer>
-        <style jsx>
+        <style>
           {`
             @media (min-width: 800px) {
               footer {

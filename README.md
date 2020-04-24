@@ -32,7 +32,7 @@ git clone git@github.com:Zesysy/my-web-site.git
 ## Folder Hierarchy
 
 - `.next` : Is the folder where all the dependencies are installed. Don't touch this
-- `/components` : All mycomponents are here: Footer, Header, Modal ...
+- `/components` : All my components are here: Footer, Header, Modal ...
 - `/pages` : where all the code is, this is the folder who get all our interest here contains all the pages of the application, which will serve as a "router" (folder to keep for the proper functioning under NextJs)
 - `/static` : contains the images in an image sub-folder (important to respect this structure under NextJs)
 

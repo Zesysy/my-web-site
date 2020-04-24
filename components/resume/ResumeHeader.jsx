@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHome,
   faEnvelopeOpenText,
-  faMobileAlt
+  faMobileAlt,
 } from "@fortawesome/free-solid-svg-icons";
 import { Row, Col } from "reactstrap";
 
@@ -11,16 +11,16 @@ const ResumeHeader = () => {
     {
       logo: faMobileAlt,
       label: "+33 6 08 40 96 12",
-      href: "tel:+33608409612"
+      href: "tel:+33608409612",
     },
     {
       logo: faEnvelopeOpenText,
-      label: "sylene.manusset@gmail.com"
+      label: "sylene.manusset@gmail.com",
     },
     {
       logo: faHome,
-      label: "64210, Arbonne"
-    }
+      label: "64210, Arbonne",
+    },
   ];
 
   return (
@@ -62,7 +62,7 @@ const ResumeHeader = () => {
           </Col>
         </Row>
       </section>
-      <style jsx>
+      <style>
         {`
           ul {
             list-style: none;

@@ -25,7 +25,7 @@ const About = () => {
           </Row>
         </div>
       </section>
-      <style jsx>
+      <style>
         {`
           @media (min-width: 800px) {
             .flexAbout {

@@ -20,7 +20,7 @@ const WithHead = () => {
           crossOrigin="anonymous"
         />
       </Head>
-      <style jsx global>{`
+      <style>{`
         body {
           background: #fefdf0;
         }
