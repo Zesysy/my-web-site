@@ -103,6 +103,7 @@ const Skills = () => {
                       className="align-middle m-2"
                       size="2x"
                       color={item.color}
+                      fixedWidth={true}
                       title={item.title}
                     />{" "}
                     <small>{item.comment}</small>
@@ -114,6 +115,7 @@ const Skills = () => {
                     size="2x"
                     color={item.color}
                     title={item.title}
+                    fixedWidth={true}
                   />
                 )}
               </Fragment>
@@ -163,7 +165,7 @@ const Skills = () => {
           </Col>
         </Row>
       </article>
-      <style>
+      <style jsx>
         {`
           .textSkills {
             font-size: 0.9em;

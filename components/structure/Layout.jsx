@@ -1,7 +1,4 @@
 import PropTypes from "prop-types";
-import "@fortawesome/fontawesome-svg-core/styles.css";
-import { config } from "@fortawesome/fontawesome-svg-core";
-config.autoAddCss = false;
 
 // Line break to differentiate homemade components from others
 import Head from "./Head";
@@ -22,7 +19,7 @@ const Layout = ({ children }) => {
 };
 
 Layout.propTypes = {
-  children: PropTypes.node.isRequired
+  children: PropTypes.node.isRequired,
 };
 
 export default Layout;

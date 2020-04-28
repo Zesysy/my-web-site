@@ -18,7 +18,7 @@ const About = () => {
                 opportunité en tant que développeuse Web.
               </p>
             </Col>
-            <img src="/static/images/myPicture.webp" alt="Ma photo" />
+            <img src="/static/myPicture.webp" alt="Ma photo" />
           </Row>
           <Row className="justify-content-center m-0">
             <SocialNetworks size="3x" />

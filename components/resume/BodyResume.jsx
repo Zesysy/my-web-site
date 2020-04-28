@@ -28,7 +28,7 @@ const BodyResume = () => {
         <a
           tag="button"
           className="btn btn-secondary float-right mr-4"
-          href="/static/images/myCv.pdf"
+          href="/static/myCv.pdf"
           target="_blank"
         >
           Téléchargez au format pdf

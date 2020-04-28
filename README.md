@@ -19,7 +19,7 @@ git clone git@github.com:Zesysy/my-web-site.git
 1.  `npm install`
 2.  `npm run dev`
 
-![Application view](/static/images/applicationView.png)
+![Application view](/static/applicationView.png)
 
 ## Built With
 

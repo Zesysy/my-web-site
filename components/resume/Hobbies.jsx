@@ -7,10 +7,10 @@ const Hobbies = () => {
   ];
 
   const itemsPictures = [
-    { image: "/static/images/sablesNoel.webp", text: "Sablé de Noël" },
-    { image: "/static/images/venise.webp", text: "Venise" },
+    { image: "/static/sablesNoel.webp", text: "Sablé de Noël" },
+    { image: "/static/venise.webp", text: "Venise" },
     {
-      image: "/static/images/librairiebookstore.webp",
+      image: "/static/librairiebookstore.webp",
       text: "Librairie Bookstore, Biarritz",
     },
   ];
