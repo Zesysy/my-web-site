@@ -35,7 +35,7 @@ const Hobbies = () => {
           />
         ))}
       </article>
-      <style>
+      <style jsx>
         {`
           .textHobbies {
             font-size: 0.9em;

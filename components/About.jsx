@@ -25,18 +25,22 @@ const About = () => {
           </Row>
         </div>
       </section>
-      <style>
+      <style jsx>
         {`
+          img {
+            min-width: 280px;
+            max-height: 356px;
+          }
+          .textHomePage {
+            font-size: 1em;
+            text-align: justify;
+          }
           @media (min-width: 800px) {
             .flexAbout {
               display: flex;
               height: 80vh;
               align-items: center;
             }
-          }
-          .textHomePage {
-            font-size: 1em;
-            text-align: justify;
           }
         `}
       </style>

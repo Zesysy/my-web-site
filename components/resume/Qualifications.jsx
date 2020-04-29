@@ -50,7 +50,7 @@ const Qualifications = () => {
           </tbody>
         </table>
       </article>
-      <style>
+      <style jsx>
         {`
           span {
             color: var(--secondary) !important;

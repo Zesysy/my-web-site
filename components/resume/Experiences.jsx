@@ -28,7 +28,7 @@ const Experiences = () => {
           <span>Biarritz</span>
         </p>
       </article>
-      <style>
+      <style jsx>
         {`
           span {
             color: var(--secondary) !important;

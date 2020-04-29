@@ -62,7 +62,7 @@ const ResumeHeader = () => {
           </Col>
         </Row>
       </section>
-      <style>
+      <style jsx>
         {`
           #ulHover {
             list-style: none;
