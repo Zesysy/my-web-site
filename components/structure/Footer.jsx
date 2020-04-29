@@ -27,7 +27,7 @@ const Footer = () => {
                 color="gray"
                 size="2x"
               />
-              <span style={{ marginLeft: "4px" }}>Sylène Manusset | 2019</span>
+              <span style={{ marginLeft: "4px" }}>Sylène Manusset | 2020</span>
             </i>
           </Row>
         </footer>
