@@ -6,6 +6,7 @@ export const items = [
     link: "https://zesysy.github.io/wildCircus/",
     description:
       "Pour être admis à la WCS il était nécessaire de s'autoformer aux langages de base et de réaliser un site en respectant le thème et une liste de recommandations",
+    sm: true,
   },
   {
     title: "Robotici.a blog",
@@ -14,6 +15,7 @@ export const items = [
     link: "https://zesysy.github.io/robotici.a_blog/",
     description:
       "Premier projet de formation en groupe de trois personnes réalisé en une semaine. Mise en application des premiers apprentissages de la formation, dont l'utilisation de bootstrap et le travail du versionnage de notre projet avec Git",
+    sm: true,
   },
   {
     title: "Hackathon Easter",
@@ -21,6 +23,7 @@ export const items = [
     preview: "/static/easterHackathon.webp",
     description:
       "Hackathon de 24h en groupe de cinq personnes. Sur le thème de pâques, projet libre en faisant appel à une API créée par la WCS  d'œufs, de personnages, de rareté, de taille... ). Nous avons créé un jeu de recherche d'œufs cachés qui apparaissaient de façon aléatoire sur une image, et de taille différente en fonction de leur rareté. L'API n'ayant pas été maintenue, nous n'avons pu le déployer",
+    sm: true,
   },
   {
     title: "WoW Search",
@@ -44,6 +47,7 @@ export const items = [
     link: "https://zesysy.github.io/postcard/",
     description:
       "Petite carte animée réalisée durant ma recherche de stage pour une candidature spontanée dans une entreprise dont le produit sont les carte postales",
+    sm: true,
   },
   {
     title: "AudioWizard",
