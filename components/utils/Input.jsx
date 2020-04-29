@@ -7,7 +7,7 @@ const InputCustom = ({
   name,
   value,
   handleChange,
-  placeholder
+  placeholder,
 }) => {
   return (
     <FormGroup>
@@ -19,7 +19,7 @@ const InputCustom = ({
         onChange={handleChange}
         placeholder={placeholder}
         required
-        style={type === "textarea" ? { height: "15rem" } : null}
+        style={type === "textarea" ? { height: "10rem" } : null}
       />
     </FormGroup>
   );
@@ -31,7 +31,7 @@ InputCustom.propTypes = {
   name: PropTypes.string.isRequired,
   value: PropTypes.string.isRequired,
   handleChange: PropTypes.func.isRequired,
-  placeholder: PropTypes.string
+  placeholder: PropTypes.string,
 };
 
 export default InputCustom;

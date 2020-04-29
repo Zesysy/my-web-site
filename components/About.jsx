@@ -9,34 +9,73 @@ const About = () => {
       <section className="flexAbout">
         <div>
           <Row className="m-0 justify-content-center">
-            <Col lg="4" className="m-3">
+            <Col lg="5" className="m-3">
               <TypeWriter />
               <p className="textHomePage">
-                Il y a un an j'ai changé de direction. J'ai lâché mes aiguilles
-                et raccroché ma blouse pour un nouveau défi! Après neuf mois de
-                formation à la Wild Code School, je suis à la recherche d'une
-                opportunité en tant que développeuse Web.
+                Début 2019 j'ai changé de direction. J'ai lâché mes aiguilles et
+                raccroché ma blouse pour un nouveau défi !
+                <br />
+                Après une première formation pour devenir développeuse, où j'ai
+                commencé par être formée sur Javascript et ReactJs, et une
+                nouvelle formation pour apprendre Java, cela fait maitenant plus
+                d'un an que je code en toute autonomie. <br />
+                Je suis à la recherche d'une opportunité en tant que
+                développeuse Web.
               </p>
             </Col>
-            <img src="/static/images/myPicture.webp" alt="Ma photo" />
+            <img src="/static/myPicture.webp" alt="Ma photo" />
           </Row>
-          <Row className="justify-content-center m-0">
+          <div className="socialIcons">
             <SocialNetworks size="3x" />
-          </Row>
+          </div>
         </div>
       </section>
       <style jsx>
         {`
-          @media (min-width: 800px) {
+          @media (min-width: 1301px) {
             .flexAbout {
               display: flex;
-              height: 80vh;
               align-items: center;
             }
+            img {
+              min-width: 280px;
+              min-height: 356px;
+            }
+            .socialIcons {
+              display: flex;
+              justify-content: center;
+            }
           }
-          .textHomePage {
-            font-size: 1em;
-            text-align: justify;
+
+          @media screen and (min-width: 700px) and (max-width: 1300px) {
+            img {
+              min-width: 207px;
+              max-height: 244px;
+            }
+
+            .textHomePage {
+              margin: 0 5rem 0 5rem;
+            }
+
+            .socialIcons {
+              display: flex;
+              justify-content: center;
+              margin-top: 2rem;
+            }
+          }
+
+          @media (max-width: 699px) {
+            img {
+              display: none;
+            }
+            p {
+              font-size: 0.8rem;
+            }
+            .socialIcons {
+              display: flex;
+              justify-content: center;
+              margin-top: 2rem;
+            }
           }
         `}
       </style>

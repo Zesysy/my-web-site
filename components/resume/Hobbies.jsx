@@ -3,16 +3,16 @@ const Hobbies = () => {
     { text: "❤️ Javascript et React" },
     { text: "Lectures (science fiction, fantaisie, romans…)" },
     { text: "Cinéma, musée, théâtre, voyages, musique" },
-    { text: "Cuisiner (surtout les gâteaux 😉)." }
+    { text: "Cuisiner (surtout les gâteaux 😉)." },
   ];
 
   const itemsPictures = [
-    { image: "/static/images/sablesNoel.webp", text: "Sablé de Noël" },
-    { image: "/static/images/venise.webp", text: "Venise" },
+    { image: "/static/sablesNoel.webp", text: "Sablé de Noël" },
+    { image: "/static/venise.webp", text: "Venise" },
     {
-      image: "/static/images/librairiebookstore.webp",
-      text: "Librairie Bookstore, Biarritz"
-    }
+      image: "/static/librairiebookstore.webp",
+      text: "Librairie Bookstore, Biarritz",
+    },
   ];
   return (
     <>
@@ -38,11 +38,35 @@ const Hobbies = () => {
       <style jsx>
         {`
           .textHobbies {
-            font-size: 0.9em;
+            font-size: 0.9rem;
           }
           img:hover {
             border-radius: 5px;
             box-shadow: 1px 1px 15px 1px black;
+          }
+
+          @media screen and (min-width: 700px) and (max-width: 1300px) {
+            h4 {
+              font-size: 1.3rem;
+            }
+
+            img {
+              display: none;
+            }
+          }
+
+          @media (max-width: 699px) {
+            .textHobbies {
+              font-size: 0.7rem;
+            }
+
+            h4 {
+              font-size: 1.1rem;
+            }
+
+            img {
+              display: none;
+            }
           }
         `}
       </style>

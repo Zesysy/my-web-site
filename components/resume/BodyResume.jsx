@@ -18,17 +18,17 @@ const BodyResume = () => {
       </Row>
       <Row className="justify-content-between ml-2 m-0 mt-4">
         <Col lg="6">
-          <Skills />{" "}
+          <Skills />
         </Col>
         <Col lg="6">
-          <Hobbies />{" "}
+          <Hobbies />
         </Col>
       </Row>
       <Row className="m-2 justify-content-end">
         <a
           tag="button"
           className="btn btn-secondary float-right mr-4"
-          href="/static/images/myCv.pdf"
+          href="/static/myCv.pdf"
           target="_blank"
         >
           Téléchargez au format pdf

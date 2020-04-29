@@ -1,8 +1,7 @@
-const withCSS = require("@zeit/next-css");
 function HACK_removeMinimizeOptionFromCssLoaders(config) {
-  config.module.rules.forEach(rule => {
+  config.module.rules.forEach((rule) => {
     if (Array.isArray(rule.use)) {
-      rule.use.forEach(u => {
+      rule.use.forEach((u) => {
         if (u.loader === "css-loader" && u.options) {
           delete u.options.minimize;
         }
@@ -10,9 +9,9 @@ function HACK_removeMinimizeOptionFromCssLoaders(config) {
     }
   });
 }
-module.exports = withCSS({
+module.exports = {
   webpack(config) {
     HACK_removeMinimizeOptionFromCssLoaders(config);
     return config;
-  }
-});
+  },
+};

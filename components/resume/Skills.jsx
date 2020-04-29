@@ -5,7 +5,7 @@ import {
   faHtml5,
   faCss3,
   faJsSquare,
-  // faJava,
+  faJava,
   faReact,
   faNodeJs,
   faBootstrap,
@@ -13,7 +13,7 @@ import {
   faGithub,
   faGitlab,
   faTrello,
-  faSlack
+  faSlack,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUserNurse } from "@fortawesome/free-solid-svg-icons";
@@ -26,14 +26,14 @@ const Skills = () => {
       logo: faUbuntu,
       color: "#e95420",
       text: "Usage quotidien en développement",
-      title: "Ubuntu"
+      title: "Ubuntu",
     },
     {
       logo: faWindows,
       color: "#0078d7",
       text: "Usage personnel",
-      title: "Windows"
-    }
+      title: "Windows",
+    },
   ];
 
   const itemsDevlopment = [
@@ -42,15 +42,13 @@ const Skills = () => {
     { logo: faJsSquare, color: "#f1de4f", title: "JavaScript" },
     { logo: faReact, color: "#62d4fa", title: "ReactJs" },
     { logo: "redux" },
+    {
+      logo: faJava,
+      color: "#2e68ab",
+      title: "Java",
+    },
     { logo: faNodeJs, color: "#43853d", title: "NodeJs" },
-    { logo: faBootstrap, color: "#563d7c", title: "Bootstrap" }
-
-    // {
-    //   logo: faJava,
-    //   color: "#2e68ab",
-    //   title: "Java",
-    //   comment: "(en cours d'exploration)"
-    // }
+    { logo: faBootstrap, color: "#563d7c", title: "Bootstrap" },
   ];
 
   const itemsCrew = [
@@ -58,7 +56,7 @@ const Skills = () => {
     { logo: faGithub, color: "#333", title: "Github" },
     { logo: faGitlab, color: "#fc6d26", title: "Gitlab" },
     { logo: faTrello, color: "#0079bf", title: "Trello" },
-    { logo: faSlack, color: "#4A154B", title: "Slack" }
+    { logo: faSlack, color: "#4A154B", title: "Slack" },
   ];
 
   return (
@@ -66,15 +64,15 @@ const Skills = () => {
       <article>
         <h4>Compétences</h4>
         <Row className="justify-content-between m-0">
-          <Col lg="6">
+          <Col lg="6" md="5">
             <h6>Environnement</h6>
           </Col>
-          <Col lg="6">
+          <Col lg="6" md="5">
             <h6>Développement</h6>
           </Col>
         </Row>
         <Row className="justify-content-between m-0">
-          <Col lg="6">
+          <Col lg="6" md="5">
             <ul style={{ listStyle: "none" }}>
               {itemsEnvironment.map((item, key) => (
                 <li key={key}>
@@ -85,28 +83,17 @@ const Skills = () => {
                     className="align-middle m-2"
                     fixedWidth={true}
                     title={item.title}
-                  />{" "}
+                  />
                   <small>{item.text}</small>
                 </li>
               ))}
             </ul>
           </Col>
-          <Col lg="6">
+          <Col lg="6" md="5">
             {itemsDevlopment.map((item, key) => (
               <Fragment key={key}>
                 {item.logo === "redux" ? (
                   <ReduxLogo id="redux" />
-                ) : item.comment ? (
-                  <>
-                    <FontAwesomeIcon
-                      icon={item.logo}
-                      className="align-middle m-2"
-                      size="2x"
-                      color={item.color}
-                      title={item.title}
-                    />{" "}
-                    <small>{item.comment}</small>
-                  </>
                 ) : (
                   <FontAwesomeIcon
                     icon={item.logo}
@@ -114,6 +101,7 @@ const Skills = () => {
                     size="2x"
                     color={item.color}
                     title={item.title}
+                    fixedWidth={true}
                   />
                 )}
               </Fragment>
@@ -122,15 +110,15 @@ const Skills = () => {
           </Col>
         </Row>
         <Row className="justify-content-between m-0 mt-4">
-          <Col lg="6">
+          <Col lg="6" md="5">
             <h6>Générales</h6>
           </Col>
-          <Col lg="6">
+          <Col lg="6" md="5">
             <h6>En Équipe</h6>
           </Col>
         </Row>
         <Row className="justify-content-between m-0">
-          <Col lg="6">
+          <Col lg="6" md="5">
             <FontAwesomeIcon
               icon={faUserNurse}
               size="2x"
@@ -144,7 +132,7 @@ const Skills = () => {
               - Empathie et sens de l’écoute - Capacité d’adaptation
             </p>
           </Col>
-          <Col lg="6">
+          <Col lg="6" md="5">
             {itemsCrew.map((item, key) => (
               <FontAwesomeIcon
                 key={key}
@@ -166,7 +154,39 @@ const Skills = () => {
       <style jsx>
         {`
           .textSkills {
-            font-size: 0.9em;
+            font-size: 0.9rem;
+          }
+
+          @media screen and (min-width: 700px) and (max-width: 1300px) {
+            article,
+            small {
+              font-size: 0.9rem;
+            }
+
+            h4 {
+              font-size: 1.3rem;
+            }
+
+            .textSkills {
+              text-align: center;
+            }
+          }
+
+          @media (max-width: 699px) {
+            article,
+            small {
+              font-size: 0.9rem;
+            }
+
+            h4 {
+              font-size: 1.1rem;
+            }
+          }
+
+          @media (max-width: 699px) {
+            article {
+              display: none;
+            }
           }
         `}
       </style>

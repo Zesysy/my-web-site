@@ -4,7 +4,7 @@ import { Card, CardText, CardHeader, CardBody, CardImg } from "reactstrap";
 
 import Modal from "./Modal";
 
-const CardCustom = ({ title, description, preview, link, subtitle }) => {
+const CardCustom = ({ title, description, preview, link, subtitle, sm }) => {
   const [modal, setModal] = useState(false);
   const toggle = () => setModal(!modal);
 
@@ -36,6 +36,10 @@ const CardCustom = ({ title, description, preview, link, subtitle }) => {
           .zoomHover:hover {
             transform: scale(1.1);
           }
+
+          @media (max-width: 699px) {
+            display: ${sm ? "none" : null};
+          }
         `}
       </style>
     </>
@@ -47,7 +51,7 @@ CardCustom.propTypes = {
   description: PropTypes.string.isRequired,
   preview: PropTypes.string.isRequired,
   link: PropTypes.string,
-  subtitle: PropTypes.string.isRequired
+  subtitle: PropTypes.string.isRequired,
 };
 
 export default CardCustom;
