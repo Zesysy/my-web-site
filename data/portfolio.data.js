@@ -68,8 +68,9 @@ export const items = [
   {
     title: "Travel Blog",
     subtitle: "Jan/20 : Javascript - VueJs",
-    link: "https://blog-voyage.netlify.com/",
-    preview: "/static/travelBlog.webp",
+
+    link: "https://travelsblog.netlify.app/",
+    preview: "/static/images/travelBlog.webp",
     description:
       "Site monopage sous forme de blog de voyages, afin de découvrir VueJs en mode CLI",
   },
