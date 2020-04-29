@@ -83,6 +83,20 @@ const ContactForm = () => {
       <style jsx>
         {`
           width: 100%;
+
+          @media (min-width: 1301px) {
+            width: 100%;
+          }
+
+          @media screen and (min-width: 700px) and (max-width: 1300px) {
+            width: 80%;
+          }
+
+          @media (max-width: 699px) {
+            section {
+              margin: 0 1rem 0 1rem;
+            }
+          }
         `}
       </style>
     </>
