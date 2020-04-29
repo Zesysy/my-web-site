@@ -27,22 +27,29 @@ const Footer = () => {
                 color="gray"
                 size="2x"
               />
-              Sylène Manusset | 2019
+              <span style={{ marginLeft: "4px" }}>Sylène Manusset | 2019</span>
             </i>
           </Row>
         </footer>
       )}
       <style>
         {`
-              footer {
-                width: 100%;
-                height: 4rem;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                background-color: var(--info);
-              }
-            `}
+          footer {
+            width: 100%;
+            height: 4rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: var(--info);
+          }
+
+          @media (max-width: 699px) {
+            i,
+            span {
+              font-size: 0.8rem;
+            }
+          }
+        `}
       </style>
     </>
   );
