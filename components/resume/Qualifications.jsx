@@ -6,30 +6,20 @@ const Qualifications = () => {
         <table>
           <tbody>
             <tr className="align-top">
+              <td>2020</td>
+              <td>
+                <strong>Formation au langage Java (Jee {"&"} Spring), </strong>
+                <span>Wild Code School</span> de Biarritz (équivalent Bac+2)
+              </td>
+            </tr>
+            <tr className="align-top">
               <td>2019</td>
               <td>
                 <strong>
                   Formation de Développeur Web (JavaScript, ReactJs {"&"}{" "}
                   NodeJs),
-                </strong>{" "}
-                <span>Wild Code School</span> de Bidart (équivalent Bac+2)
-              </td>
-            </tr>
-            <tr className="align-top">
-              <td>2018/19</td>
-              <td>
-                <strong>Cours Internet: </strong>
-                <ul>
-                  <li>
-                    “Apprenez à créer votre site web avec HTML5 et CSS3” {"&"}{" "}
-                    “Apprenez à coder avec JavaScript”,{" "}
-                    <span> OpenClassRooms.fr</span>
-                  </li>
-                  <li>
-                    “Introduction To JavaScript”,{" "}
-                    <span> OpenClassRooms.fr</span>
-                  </li>
-                </ul>
+                </strong>
+                <span> Wild Code School</span> de Biarritz (équivalent Bac+2)
               </td>
             </tr>
             <tr className="align-top">
@@ -56,8 +46,26 @@ const Qualifications = () => {
             color: var(--secondary) !important;
             text-align: justify;
           }
+
           .textQualifications {
-            font-size: 0.9em;
+            font-size: 0.9rem;
+          }
+
+          @media screen and (min-width: 700px) and (max-width: 1300px) {
+            h4 {
+              font-size: 1.3rem;
+            }
+          }
+
+          @media (max-width: 699px) {
+            h4 {
+              font-size: 1.1rem;
+            }
+
+            .textQualifications,
+            span {
+              font-size: 0.7rem;
+            }
           }
         `}
       </style>

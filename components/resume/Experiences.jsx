@@ -17,7 +17,6 @@ const Experiences = () => {
         <ul className="textExperiences">
           <li>Izanami Web, groupe de cinq personnes sur deux mois.</li>
           <li>WoW-Search, groupe de trois personnes sur cinq semaines.</li>
-          <li>ROBOTICI.A BLOG, groupe de trois personnes sur une semaine.</li>
         </ul>
         <p className="textExperiences">
           <strong>
@@ -34,8 +33,21 @@ const Experiences = () => {
             color: var(--secondary) !important;
             text-align: justify;
           }
+
           .textExperiences {
             font-size: 0.9em;
+          }
+
+          @media screen and (min-width: 700px) and (max-width: 1300px) {
+            h4 {
+              font-size: 1.3rem;
+            }
+          }
+
+          @media (max-width: 699px) {
+            article {
+              display: none;
+            }
           }
         `}
       </style>

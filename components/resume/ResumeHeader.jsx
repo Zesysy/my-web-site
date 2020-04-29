@@ -27,13 +27,13 @@ const ResumeHeader = () => {
     <>
       <section>
         <Row className="m-0 mt-3">
-          <Col lg="9">
+          <Col lg="9" md="7">
             <h3>Sylène Manusset</h3>
             <h4 className="text-center">
               {"/*"} Développeur Web Junior, en recherche d’opportunités {"*/"}
             </h4>
           </Col>
-          <Col lg="3">
+          <Col lg="3" md="5">
             <ul id="ulStyle">
               {items.map((item, key) => (
                 <li key={key}>
@@ -64,6 +64,10 @@ const ResumeHeader = () => {
       </section>
       <style jsx>
         {`
+          h4 {
+            font-family: Courier New, Courier, monospace;
+          }
+
           #ulStyle {
             list-style: none;
             border-radius: 5px;
@@ -72,6 +76,24 @@ const ResumeHeader = () => {
           ul#ulStyle:hover {
             border-radius: 5px;
             box-shadow: 1px 1px 15px 1px black;
+          }
+
+          @media screen and (min-width: 700px) and (max-width: 1300px) {
+            h3 {
+              font-size: 1.4rem;
+            }
+            h4 {
+              font-size: 1.3rem;
+            }
+          }
+
+          @media (max-width: 699px) {
+            h3 {
+              font-size: 1.2rem;
+            }
+            h4 {
+              font-size: 1.1rem;
+            }
           }
         `}
       </style>

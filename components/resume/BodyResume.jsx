@@ -18,10 +18,10 @@ const BodyResume = () => {
       </Row>
       <Row className="justify-content-between ml-2 m-0 mt-4">
         <Col lg="6">
-          <Skills />{" "}
+          <Skills />
         </Col>
         <Col lg="6">
-          <Hobbies />{" "}
+          <Hobbies />
         </Col>
       </Row>
       <Row className="m-2 justify-content-end">
