@@ -50,35 +50,42 @@ const ContactForm = () => {
   }; // modifies the state by destructuring the data
 
   return (
-    <section>
-      <Row className="justify-content-center m-0 mt-5 mb-5">
-        <Col lg="4">
-          <Card className="border-info card-block justify-content-center">
-            <CardHeader className="text-center">
-              Formulaire de contact
-            </CardHeader>
-            <CardBody>
-              <Form onSubmit={(e) => handleSubmit(e)}>
-                {items.map((item, key) => (
-                  <InputCustom
-                    label={item.label}
-                    type={item.type}
-                    name={item.name}
-                    value={item.value}
-                    handleChange={handleChange}
-                    placeholder={item.placeholder}
-                    key={key}
-                  />
-                ))}
-                <Row className="justify-content-end">
-                  <Button type="submit">Envoyer</Button>
-                </Row>
-              </Form>
-            </CardBody>
-          </Card>
-        </Col>
-      </Row>
-    </section>
+    <>
+      <section>
+        <Row className="justify-content-center m-0 mt-5 mb-5">
+          <Col lg="4">
+            <Card className="border-info card-block justify-content-center">
+              <CardHeader className="text-center">
+                Formulaire de contact
+              </CardHeader>
+              <CardBody>
+                <Form onSubmit={(e) => handleSubmit(e)}>
+                  {items.map((item, key) => (
+                    <InputCustom
+                      label={item.label}
+                      type={item.type}
+                      name={item.name}
+                      value={item.value}
+                      handleChange={handleChange}
+                      placeholder={item.placeholder}
+                      key={key}
+                    />
+                  ))}
+                  <Row className="justify-content-end">
+                    <Button type="submit">Envoyer</Button>
+                  </Row>
+                </Form>
+              </CardBody>
+            </Card>
+          </Col>
+        </Row>
+      </section>
+      <style jsx>
+        {`
+          width: 100%;
+        `}
+      </style>
+    </>
   );
 };
 

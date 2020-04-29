@@ -1,6 +1,7 @@
 const NetlifyFormHidden = () => {
   return (
-    <form // a hidden form which allows netlify by analyzing the html to manage the sent forms
+    // Hidden form which allows netlify by analyzing the html to manage the sent forms
+    <form
       name="contact"
       data-netlify="true"
       netlify-honeypot="bot-field"

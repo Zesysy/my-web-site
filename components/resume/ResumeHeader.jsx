@@ -27,14 +27,14 @@ const ResumeHeader = () => {
     <>
       <section>
         <Row className="m-0 mt-3">
-          <Col lg="10">
+          <Col lg="9">
             <h3>Sylène Manusset</h3>
             <h4 className="text-center">
               {"/*"} Développeur Web Junior, en recherche d’opportunités {"*/"}
             </h4>
           </Col>
-          <Col lg="2">
-            <ul id="ulHover">
+          <Col lg="3">
+            <ul id="ulStyle">
               {items.map((item, key) => (
                 <li key={key}>
                   {item.href ? (
@@ -64,11 +64,12 @@ const ResumeHeader = () => {
       </section>
       <style jsx>
         {`
-          #ulHover {
+          #ulStyle {
             list-style: none;
             border-radius: 5px;
           }
-          ul#ulHover:hover {
+
+          ul#ulStyle:hover {
             border-radius: 5px;
             box-shadow: 1px 1px 15px 1px black;
           }

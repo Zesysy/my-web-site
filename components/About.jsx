@@ -38,7 +38,6 @@ const About = () => {
           @media (min-width: 800px) {
             .flexAbout {
               display: flex;
-              height: 80vh;
               align-items: center;
             }
           }

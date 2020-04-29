@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import Head from "./Head";
 import Header from "./Header";
 import Footer from "./Footer";
+import MainWrapper from "./MainWrapper";
 import NetlifyFormHidden from "../utils/NetlifyFormHidden";
 
 const Layout = ({ children }) => {
@@ -11,7 +12,7 @@ const Layout = ({ children }) => {
     <>
       <Head />
       <Header />
-      {children}
+      <MainWrapper>{children}</MainWrapper>
       <Footer />
       <NetlifyFormHidden />
     </>

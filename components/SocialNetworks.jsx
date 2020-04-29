@@ -16,7 +16,7 @@ const SocialNetworks = ({ size }) => {
   return (
     <>
       {items.map((item, key) => (
-        <a key={key} className="m-2" href={item.link} target="_blank">
+        <a key={key} className="mr-2 ml-2" href={item.link} target="_blank">
           <FontAwesomeIcon
             icon={item.logo}
             size={size}
@@ -30,19 +30,10 @@ const SocialNetworks = ({ size }) => {
           {`
             .linkSocialNetwork:hover {
               color: var(--info) !important;
-              text-decoration: none;
             }
           `}
         </style>
-      ) : (
-        <style>
-          {`
-            .linkSocialNetwork:hover {
-              text-decoration: none;
-            }
-          `}
-        </style>
-      )}
+      ) : null}
     </>
   );
 };
