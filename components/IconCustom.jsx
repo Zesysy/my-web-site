@@ -21,7 +21,7 @@ IconCustom.propTypes = {
     title: PropTypes.string,
     size: PropTypes.string,
     position: PropTypes.string,
-    content: PropTypes.string
+    content: PropTypes.node
 };
 
 export default IconCustom;
