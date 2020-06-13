@@ -8,7 +8,7 @@ const Qualifications = () => {
             <tr className="align-top">
               <td>2020</td>
               <td>
-                <strong>Formation au langage Java (Jee {"&"} Spring), </strong>
+                <strong>Formation au langage Java (JEE {"&"} Spring), </strong>
                 <span>Wild Code School</span> de Biarritz (équivalent Bac+2)
               </td>
             </tr>
