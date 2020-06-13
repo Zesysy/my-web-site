@@ -30,7 +30,7 @@ const ResumeHeader = () => {
           <Col lg="9" md="7">
             <h3>Sylène Manusset</h3>
             <h4 className="text-center">
-              {"/*"} Développeur Web Junior, en recherche d’opportunités {"*/"}
+              {"/*"} Développeuse Web Junior, en recherche d’opportunités {"*/"}
             </h4>
           </Col>
           <Col lg="3" md="5">
@@ -47,15 +47,15 @@ const ResumeHeader = () => {
                       {item.label}
                     </a>
                   ) : (
-                    <i>
-                      <FontAwesomeIcon
-                        icon={item.logo}
-                        color="gray"
-                        fixedWidth={true}
-                      />{" "}
-                      {item.label}
-                    </i>
-                  )}
+                      <i>
+                        <FontAwesomeIcon
+                          icon={item.logo}
+                          color="gray"
+                          fixedWidth={true}
+                        />{" "}
+                        {item.label}
+                      </i>
+                    )}
                 </li>
               ))}
             </ul>
