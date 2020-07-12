@@ -25,12 +25,12 @@ const ResumeHeader = () => {
 
   return (
     <>
-      <section>
+      <section className="mb-5">
         <Row className="m-0 mt-3">
           <Col lg="9" md="7">
             <h3>Sylène Manusset</h3>
             <h4 className="text-center">
-              {"/*"} Développeuse Web Junior, en recherche d’opportunités {"*/"}
+              {"/*"} Développeuse Web{"*/"}
             </h4>
           </Col>
           <Col lg="3" md="5">
@@ -73,10 +73,7 @@ const ResumeHeader = () => {
             border-radius: 5px;
           }
 
-          ul#ulStyle:hover {
-            border-radius: 5px;
-            box-shadow: 1px 1px 15px 1px black;
-          }
+        
 
           @media screen and (min-width: 700px) and (max-width: 1300px) {
             h3 {

@@ -10,21 +10,13 @@ const Experiences = () => {
           Au sein d’une start-up en création et intégrée dans une équipe de
           trois développeurs.
         </p>
-        <strong className="textExperiences">
-          Projets durant la Formation à la Wild Code School,
-        </strong>{" "}
-        <span>février/juillet 2019</span>,<span> Bidart</span>
-        <ul className="textExperiences">
-          <li>Izanami Web, groupe de cinq personnes sur deux mois.</li>
-          <li>WoW-Search, groupe de trois personnes sur cinq semaines.</li>
-        </ul>
+
         <p className="textExperiences">
           <strong>
             Infirmière Diplômée d’État, GCS centre de cardiologie {"&"} Clinique
             Aguilera,
           </strong>{" "}
-          <span>avril 2011 à janvier 2019 </span>, <span>Bayonne</span> {"&"}{" "}
-          <span>Biarritz</span>
+          <span>2011/2019 </span>
         </p>
       </article>
       <style jsx>
