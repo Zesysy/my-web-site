@@ -23,21 +23,19 @@ const Skills = () => {
         </Row>
         <Row className="justify-content-between m-0">
           <Col lg="6" md="5">
-            <ul style={{ listStyle: "none" }}>
-              {itemsEnvironment.map((item, key) => (
-                <li key={key}>
-                  <FontAwesomeIcon
-                    icon={item.logo}
-                    size="2x"
-                    color={item.color}
-                    className="align-middle m-2"
-                    fixedWidth={true}
-                    title={item.title}
-                  />
-                  <small>{item.text}</small>
-                </li>
-              ))}
-            </ul>
+            {itemsEnvironment.map((item, key) => (
+              <Fragment key={key}>
+                <FontAwesomeIcon
+                  icon={item.logo}
+                  size="2x"
+                  color={item.color}
+                  className="align-middle m-2"
+                  fixedWidth={true}
+                  title={item.title}
+                />
+                <small>{item.text}</small>
+              </Fragment>
+            ))}
           </Col>
           <Col lg="6" md="5">
             {itemsDevlopment.map((item, key) => (
@@ -66,40 +64,12 @@ const Skills = () => {
           <Col lg="6" md="5">
             <h6>Générales</h6>
           </Col>
-          <Col lg="6" md="5">
-            <h6>En Équipe</h6>
-          </Col>
         </Row>
         <Row className="justify-content-between m-0">
           <Col lg="6" md="5">
-            <FontAwesomeIcon
-              icon={faUserNurse}
-              size="2x"
-              color="red"
-              className="align-middle m-2"
-              fixedWidth={true}
-              title="Infirmière"
-            />
             <p className="textSkills">
               Gestion de l’urgence - Organisation - Rigueur - Travail en équipe
               - Empathie et sens de l’écoute - Capacité d’adaptation
-            </p>
-          </Col>
-          <Col lg="6" md="5">
-            {itemsCrew.map((item, key) => (
-              <FontAwesomeIcon
-                key={key}
-                icon={item.logo}
-                size="2x"
-                color={item.color}
-                className="align-middle m-2"
-                fixedWidth={true}
-                title={item.title}
-              />
-            ))}
-            <p className="textSkills">
-              Méthode Agile - Scrum - Kanban - Moscow (tous étudiés durant la
-              formation)
             </p>
           </Col>
         </Row>

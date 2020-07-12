@@ -1,5 +1,6 @@
 import { Button, Form, Card, CardHeader, CardBody, Row, Col } from "reactstrap";
 import { useState } from "react";
+
 import InputCustom from "./utils/Input";
 
 const encode = (data) => {
@@ -71,7 +72,7 @@ const ContactForm = () => {
                       key={key}
                     />
                   ))}
-                  <Row className="justify-content-end">
+                  <Row className="justify-content-end mr-1">
                     <Button type="submit">Envoyer</Button>
                   </Row>
                 </Form>

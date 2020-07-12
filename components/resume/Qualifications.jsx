@@ -1,7 +1,7 @@
 const Qualifications = () => {
   return (
     <>
-      <article className="textQualifications">
+      <article className="textQualifications pl-md-4">
         <h4>Diplômes et Formations</h4>
         <table>
           <tbody>
@@ -9,7 +9,7 @@ const Qualifications = () => {
               <td>2020</td>
               <td>
                 <strong>Formation au langage Java (JEE {"&"} Spring), </strong>
-                <span>Wild Code School</span> de Biarritz (équivalent Bac+2)
+                <span>Wild Code School</span> de Biarritz
               </td>
             </tr>
             <tr className="align-top">
@@ -19,7 +19,7 @@ const Qualifications = () => {
                   Formation de Développeur Web (JavaScript, ReactJs {"&"}{" "}
                   NodeJs),
                 </strong>
-                <span> Wild Code School</span> de Biarritz (équivalent Bac+2)
+                <span> Wild Code School</span> de Biarritz
               </td>
             </tr>
             <tr className="align-top">
@@ -30,13 +30,7 @@ const Qualifications = () => {
                 Bayonne
               </td>
             </tr>
-            <tr className="align-top">
-              <td>2006</td>
-              <td>
-                <strong>Baccalauréat série scientifique,</strong>{" "}
-                <span>lycée André Malraux</span>, de Biarritz
-              </td>
-            </tr>
+
           </tbody>
         </table>
       </article>
@@ -44,7 +38,6 @@ const Qualifications = () => {
         {`
           span {
             color: var(--secondary) !important;
-            text-align: justify;
           }
 
           .textQualifications {

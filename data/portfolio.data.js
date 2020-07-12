@@ -1,85 +1,121 @@
 export const items = [
   {
-    title: "WildCircus",
-    subtitle: "Jan/19 : HTML5 - CSS3",
-    preview: "/static/wildCircus.webp",
-    link: "https://zesysy.github.io/wildCircus/",
+    title: "Journal d'une Todo",
+    subtitle: "Javascript - ReactJs - Redux - Firebase - Firestore - Formik - Yup",
+    link: "https://diary-todo.netlify.app/",
     description:
-      "Pour être admis à la WCS il était nécessaire de s'autoformer aux langages de base et de réaliser un site en respectant le thème et une liste de recommandations",
-    sm: true,
+      <p>Application de gestion de tâches :<br />
+        - création de composants styliser avec Styled component (création de variable de couleur, condition d'affichage en fonction des propriétés récupérées...)<br />
+        - gestions de formulaires et validation des entrées avec Formik et Yup<br />
+        - mise en place et gestion d'une authentification avec Firebase, Firestore, Redux et les librairies permettant de les lier plus facilement comme React-Redux-Firebase (création/modification/suppression de profil, vérification d'email, récupération de mot de passe...)<br />
+        - gestion des routes en fonction de la connexion de l'utilisateur<br />
+        - création/modification/suppresion de tâches.<br />
+      </p>
   },
   {
-    title: "Robotici.a blog",
-    subtitle: "Mar/19 : HTML5 - CSS3 - Bootstrap",
-    preview: "/static/roboticiBlog.webp",
-    link: "https://zesysy.github.io/robotici.a_blog/",
+    title: "Application Météo",
+    subtitle: "Javascript - VueJs - MomentJs",
+    link: "https://appli-meteo.netlify.app/",
     description:
-      "Premier projet de formation en groupe de trois personnes réalisé en une semaine. Mise en application des premiers apprentissages de la formation, dont l'utilisation de bootstrap et le travail du versionnage de notre projet avec Git",
-    sm: true,
-  },
-  {
-    title: "Hackathon Easter",
-    subtitle: "Avr/19 : Javascript - ReactJs",
-    preview: "/static/easterHackathon.webp",
-    description:
-      "Hackathon de 24h en groupe de cinq personnes. Sur le thème de pâques, projet libre en faisant appel à une API créée par la WCS  d'œufs, de personnages, de rareté, de taille... ). Nous avons créé un jeu de recherche d'œufs cachés qui apparaissaient de façon aléatoire sur une image, et de taille différente en fonction de leur rareté. L'API n'ayant pas été maintenue, nous n'avons pu le déployer",
-    sm: true,
-  },
-  {
-    title: "WoW Search",
-    subtitle: "Avr/19 : Javascript - ReactJs",
-    preview: "/static/wowSearch.webp",
-    link: "https://wow-search-engine.netlify.com/",
-    description:
-      "Deuxième projet de formation en groupe de trois personnes réalisé sur cinq semaines. Notre client (le formateur) souhaitez pouvoir retrouver plus facilement les données de ses personnages du jeu World Of Warcraft, nous lui avons proposé un moteur de recherche utilisant l'API de Raider.io. Mise en pratique de notre apprentissage de Javascript et ReactJs, tout en découvrant les méthodes Scrum et Kanban.",
-  },
-  {
-    title: "Izanami Web",
-    subtitle: "Mai/19 : Javascript - ReactJs - NodeJs",
-    preview: "/static/izanamiWeb.webp",
-    description:
-      "Troisième projet de formation en groupe de cing personnes réalisé sur deux mois. InvestoWeb, notre client, souhaitait proposait un nouvel outils de travail à un de leur collaborateur, une entreprise de pompes funèbres. Nous avons travaillé à la création de formulaires récupérant les informations des familles, et devions les récupérer sur notre base de données. Cette dernière nous permettrait ensuite de remplir des documents au format PDF, qui était une demande du client. Nous avons pu par nous-même chercher de nouvelles librairies à utiliser dans notre projet (ReactPdf, ReduxForm), tout en manipulant Redux. Le projet ayant été récupéré par le client, je n'ai pas la possibilité de le montrer",
-  },
-  {
-    title: "Petite Carte",
-    subtitle: "Jui/19 :  HTML5 - CSS3",
-    preview: "/static/littleCard.webp",
-    link: "https://zesysy.github.io/postcard/",
-    description:
-      "Petite carte animée réalisée durant ma recherche de stage pour une candidature spontanée dans une entreprise dont le produit sont les carte postales",
-    sm: true,
-  },
-  {
-    title: "AudioWizard",
-    subtitle: "Aoû/19 : Javascript - ReactJs - Php",
-    link: "https://app.audiowizard.fr/#/",
-    preview: "/static/audioWizard.webp",
-    description:
-      "Lors de mon stage, nous avons travaillé à la création d'une application Web qui serait un outils de suivi de patients d'audioprothésistes. Tout en respectant le Règlement à la Protection de la Donnée, et pensée pour une utilisation bureau et tablette, nous avons développé la possibilité d'enregistrer un nouvel utilisateur, d'enregistrer un patient en le faisant évoluer durant les étapes de sa prise en charge, et cela en liant notre front en ReactJs et notre back en Php. J'ai travaillé tout au long de ce stage à distance, avec des daily en visioconférence, et une grande autonomie de travail. Le site est accessible mais nécessite bien entendu d'avoir un code d'authentification.",
+      <p>Découverte de VueJs :<br />
+        - utilisation de conditions affichage de variables dans les templates<br />
+        - appeler des données depuis une Api<br />
+        - créer et utiliser des fonctions ou des librairies externes (MomentJs).
+      </p>
   },
   {
     title: "Lovely Movie",
-    subtitle: "Dec/19 : Javascript - ReactJs",
+    subtitle: "Javascript - ReactJs",
     link: "https://lovely-movie.netlify.com/",
-    preview: "/static/lovelyMovie.webp",
     description:
-      "Application de recherche de film créée afin de manipuler les hooks, et plus préisément useReducer",
+      <p>Recherche de film :<br />
+        - connexion à l'Api afin de retrouver les films par leur nom<br />
+        - utilisation des hooks afin de gérer l'état de l'application, la récupération des données ou l'affichage d'erreurs.
+      </p>
+  },
+  {
+    title: "AudioWizard",
+    subtitle: "Javascript - ReactJs - Php - Symphony - Api Platform - MomentJs",
+    link: "https://app.audiowizard.fr/#/",
+    description:
+      <p>Lors de mon stage, nous avons travaillé à la création d'une application Web qui serait un outils de suivi de patients d'audioprothésistes.<br />
+      Ma mission était :<br />
+      - générer les vues en me basant sur le wireframe et en respectant la charte graphique<br />
+      - prévoir une utilisation en mode tablette et bureau<br />
+      - mettre en place le contexte de ReactJs qui nous permettrait d'enregistrer un nouvel audioprothésiste, un nouveau patient et de faire évoluer son statut de prise en charge<br />
+      - connecter l'application à notre Api pour permettre des requêtes (Axios) à celle-ci et la gestion des données utilisateurs ou patients<br />
+      - permettre la modification de compte-rendu (CKEditor) déjà pré-remplis avec les données récupérées sur l'Api, le but étant à terme de les envoyer par email<br />
+      Tout cela en respectant le Règlement à la Protection de la Donnée<br />
+      Le site, qui a évolué depuis, est accessible mais nécessite d'avoir un code d'authentification.
+      </p>
   },
   {
     title: "Travel Blog",
-    subtitle: "Jan/20 : Javascript - VueJs",
-
+    subtitle: "Javascript - VueJs",
     link: "https://travelsblog.netlify.app/",
-    preview: "/static/travelBlog.webp",
     description:
-      "Site monopage sous forme de blog de voyages, afin de découvrir VueJs en mode CLI",
+      <p>Site monopage sous forme de blog de voyages, afin de découvrir VueJs en mode CLI"</p>
   },
   {
-    title: "Journal d'une Todo",
-    subtitle: "Avr/20 : Javascript - ReactJs",
-    link: "https://diary-todo.netlify.app/",
-    preview: "/static/journalTodo.webp",
+    title: "Izanami Web",
+    subtitle: "Javascript - ReactJs - NodeJs - ReduxForm -ReactPdf",
+    link: "/static/izanamiWeb.png",
     description:
-      "Application de gestion de tâches, avec authentification d'utilisateur gérée avec Firebase",
+      <p>Projet à la WCS avec client réel, Investoweb.<br />
+        Il souhaitait proposait un nouvel outils de travail, plus ergonomique que celui utilisé, à un de leur collaborateur, une entreprise de pompes funèbres.<br />
+        Réalisation :<br />
+        - compréhension de l'outils existant afin de reproduire ses fonctionnalités
+        - récupération de toutes les entrées du premier logiciel (nom des familles, du défunt, du véhicule de transport...)
+        - réalisation d'un visuel épuré et ergonomique, respectant leur charte graphique
+        - création de formulaires avec ReduxForm
+        - utilisation de ReactPdf afin d'alimenter des documents avec les données entrées dans les formulaires<br />
+        - téléchargement et impression de ses documents
+        - création des routes qui permettront à terme récupérer ces éléments sur la base de données du client.<br />
+        Projet privé non déployé
+      </p>
   },
+  {
+    title: "WoW Search",
+    subtitle: "Javascript - ReactJs",
+    link: "https://wow-search-engine.netlify.com/",
+    description:
+      <p>Projet à la WCS avec un client fictif qui souhaitait pouvoir retrouver plus facilement les données de ses personnages du jeu World Of Warcraft que les solutions existantes.<br />
+        Réalisation :<br />
+        - réalisation d'un moteur de recherche<br />
+        - requête (Axios) à une Api recensant tous les personnages et leur données, Raider.io, en renseignant la région du joueur, le royaume du personnage et le nom de ce dernier (ex : EU, Hyjal, Raquette)<br />
+        - affichage des Raids et Dongeons réalisés sous forme de barre de progression<br />
+        - ajout d'un top cinq des meilleurs joueurs.
+      </p>
+  },
+  {
+    title: "Petite Carte",
+    subtitle: "HTML5 - CSS3",
+    link: "https://zesysy.github.io/postcard/",
+    description:
+      <p>
+        Petite carte animée réalisée durant ma recherche de stage pour une candidature spontanée dans une entreprise dont le produit sont les carte postales.
+      </p>
+  },
+  {
+    title: "Robotici.a blog",
+    subtitle: "HTML5 - CSS3 - Bootstrap",
+    link: "https://zesysy.github.io/robotici.a_blog/",
+    description:
+      <p>
+        Premier projet de formation, réalisation d'un blog monopage sur le thème de l'Intelligence Artificielle.<br />
+        Réalisation :<br />
+        - découverte et domptage de boostrap<br />
+        - versionnage du projet avec Git (première utilisation).
+      </p>
+  },
+  {
+    title: "WildCircus",
+    subtitle: "HTML5 - CSS3",
+    link: "https://zesysy.github.io/wildCircus/",
+    description:
+      <p>
+        Projet d'amission à la WCS où il fallait réaliser un site en respectant le thème (du cirque) et une liste de recommandations.<br />
+        Mes premiers pas dans le monde du web, ma toute première réalisation, un témoin de mon évolution en si peu de temps !
+      </p>
+  }
 ];
