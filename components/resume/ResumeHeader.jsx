@@ -30,7 +30,7 @@ const ResumeHeader = () => {
           <Col lg="9" md="7">
             <h3>Sylène Manusset</h3>
             <h4 className="text-center">
-              {"/*"} Développeuse Web{"*/"}
+              {"/*"}Développeuse Web{"*/"}
             </h4>
           </Col>
           <Col lg="3" md="5">

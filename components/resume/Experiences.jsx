@@ -37,8 +37,13 @@ const Experiences = () => {
           }
 
           @media (max-width: 699px) {
-            article {
-              display: none;
+            h4 {
+              font-size: 1.1rem;
+            }
+
+            .textExperiences,
+            span {
+              font-size: 0.7rem;
             }
           }
         `}

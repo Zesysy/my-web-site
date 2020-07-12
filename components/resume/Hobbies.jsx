@@ -8,7 +8,7 @@ const Hobbies = () => {
 
   return (
     <>
-      <article className="mb-4 pl-4">
+      <article className="mb-4 pl-md-4">
         <h4>Centres d'intérêts</h4>
         <ul className="textHobbies">
           {itemsHobbie.map((item, key) => (

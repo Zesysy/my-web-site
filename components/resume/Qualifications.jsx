@@ -1,7 +1,7 @@
 const Qualifications = () => {
   return (
     <>
-      <article className="textQualifications pl-4">
+      <article className="textQualifications pl-md-4">
         <h4>Diplômes et Formations</h4>
         <table>
           <tbody>

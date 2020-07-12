@@ -23,7 +23,6 @@ const About = () => {
                 développeuse Web.
               </p>
             </Col>
-            <img src="/static/myPicture.webp" alt="Ma photo" />
           </Row>
           <div className="socialIcons">
             <SocialNetworks size="3x" />
@@ -37,10 +36,7 @@ const About = () => {
               display: flex;
               align-items: center;
             }
-            img {
-              min-width: 280px;
-              min-height: 356px;
-            }
+            
             .socialIcons {
               display: flex;
               justify-content: center;
@@ -48,11 +44,6 @@ const About = () => {
           }
 
           @media screen and (min-width: 700px) and (max-width: 1300px) {
-            img {
-              min-width: 207px;
-              max-height: 244px;
-            }
-
             .textHomePage {
               margin: 0 5rem 0 5rem;
             }
@@ -65,9 +56,6 @@ const About = () => {
           }
 
           @media (max-width: 699px) {
-            img {
-              display: none;
-            }
             p {
               font-size: 0.8rem;
             }

@@ -72,7 +72,7 @@ const ContactForm = () => {
                       key={key}
                     />
                   ))}
-                  <Row className="justify-content-end">
+                  <Row className="justify-content-end mr-1">
                     <Button type="submit">Envoyer</Button>
                   </Row>
                 </Form>

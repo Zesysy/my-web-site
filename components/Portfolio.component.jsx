@@ -1,4 +1,4 @@
-import { Row, Col } from "reactstrap";
+import { Row } from "reactstrap";
 
 import { items } from "../data/portfolio.data";
 
