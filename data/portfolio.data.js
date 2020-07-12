@@ -59,7 +59,7 @@ export const items = [
   {
     title: "Izanami Web",
     subtitle: "Javascript - ReactJs - NodeJs - ReduxForm -ReactPdf",
-    link: "/static/izanamiWeb.webp",
+    link: "/static/izanamiWeb.png",
     description:
       <p>Projet à la WCS avec client réel, Investoweb.<br />
         Il souhaitait proposait un nouvel outils de travail, plus ergonomique que celui utilisé, à un de leur collaborateur, une entreprise de pompes funèbres.<br />
