@@ -13,6 +13,32 @@ export const items = [
       </p>
   },
   {
+    title: "Charlie's Angels",
+    subtitle: "Java - Spring - Jdbc - MySql - Thymeleaf",
+    link: "https://btz-java-2003-pjt1-blog.javarover.wilders.dev/",
+    description:
+      <p>Projet à la WCS avec un client fictif qui souhaitait avoir un blog rose,avec des licornes (oui oui !), où il pourrait créer des articles (CRUD).<br />
+        Réalisation :<br />
+        - modélisation et création de la Base de données (Mysql)<br />
+        - création/modification/suppresion des articles<br />
+        - filtre des articles par leur catégories.<br />
+      </p>
+  },
+  {
+    title: "Follow The Map (en cours)",
+    subtitle: "Java - Spring - Jpa - Hibernate - PostgresSql - Thymeleaf - MapBox - Javascript",
+    description:
+      <p>Projet à la WCS avec clients réels, Follow The Market.<br />
+    Ils souhaitent intégrer à leur outils existant une carte qui permettra l'affichage des données de leur client, des filtres ou des marqueurs en fonction de ces données, et avoir une partie où ils pourront sauvegarder les paramètres de leur carte.<br />
+    Réalisation :<br />
+    - prise en main de MapBox et implémentation les scripts nécessaires à l'affichage et la manipulation d'une map<br />
+    - connexion à l'Api de MabBox afin de placer un marker sur la carte, préciser le degré de zoom, choisir un style<br />
+    - connexion à l'Api du client afin de placer un marker représentant chacune des enseignes, et ajout d'un filtre depuis un formulaire sur le nom du magasin<br />
+    - création d'une base de données sur AWS avec PostgresSql pour permettre la sauvegarde des paramètres d'une carte (latitude et longitude d'un point, le zoom, et un style)<br />
+    - ajout d'un formulaire pour permettre la sauvegarde de ces paramètres.
+      </p>
+  },
+  {
     title: "Application Météo",
     subtitle: "Javascript - VueJs - MomentJs",
     link: "https://appli-meteo.netlify.app/",
@@ -64,12 +90,12 @@ export const items = [
       <p>Projet à la WCS avec client réel, Investoweb.<br />
         Il souhaitait proposait un nouvel outils de travail, plus ergonomique que celui utilisé, à un de leur collaborateur, une entreprise de pompes funèbres.<br />
         Réalisation :<br />
-        - compréhension de l'outils existant afin de reproduire ses fonctionnalités
-        - récupération de toutes les entrées du premier logiciel (nom des familles, du défunt, du véhicule de transport...)
-        - réalisation d'un visuel épuré et ergonomique, respectant leur charte graphique
-        - création de formulaires avec ReduxForm
+        - compréhension de l'outils existant afin de reproduire ses fonctionnalités<br />
+        - récupération de toutes les entrées du premier logiciel (nom des familles, du défunt, du véhicule de transport...)<br />
+        - réalisation d'un visuel épuré et ergonomique, respectant leur charte graphique<br />
+        - création de formulaires avec ReduxForm<br />
         - utilisation de ReactPdf afin d'alimenter des documents avec les données entrées dans les formulaires<br />
-        - téléchargement et impression de ses documents
+        - téléchargement et impression de ses documents<br />
         - création des routes qui permettront à terme récupérer ces éléments sur la base de données du client.<br />
         Projet privé non déployé
       </p>
