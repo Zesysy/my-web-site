@@ -1,10 +1,17 @@
 const Hobbies = () => {
   const itemsHobbie = [
-    { text: "Lectures (science fiction, fantaisie, romans…)" },
-    { text: "Cinéma, musée, théâtre, voyages, musique" },
+    {
+      text:
+        " Voyage, : seule (Venise, Édimbourg) ou à plusieurs (Sicile, Canaries, Espagne, Londres)",
+    },
+    {
+      text:
+        "Lecture : fantasy (JRR. Tolien, R. Hobb), ou roman (C.R. Zafón, H. Lee)",
+    },
+    { text: "Musée : L'Orangerie, Le Louvre (J. Monnet, E. Delacroix)" },
+    { text: "Musique, Théatre, Jeux vidéo, Cinéma" },
     { text: "Cuisiner (surtout les gâteaux 😉)." },
   ];
-
 
   return (
     <>
