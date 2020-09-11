@@ -5,7 +5,7 @@ import Head from "./Head";
 import Header from "./Header";
 import Footer from "./Footer";
 import MainWrapper from "./MainWrapper";
-import NetlifyFormHidden from "../utils/NetlifyFormHidden";
+import NetlifyFormHidden from "../contact/NetlifyFormHidden";
 
 const Layout = ({ children }) => {
   return (

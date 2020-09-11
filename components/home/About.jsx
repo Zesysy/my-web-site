@@ -1,7 +1,7 @@
 import { Row, Col } from "reactstrap";
 
 import TypeWriter from "./TypeWriter";
-import SocialNetworks from "./SocialNetworks";
+import SocialNetworks from "../SocialNetworks";
 
 const About = () => {
   return (
