@@ -17,7 +17,7 @@ const NavBarHeader = () => {
   ];
 
   return (
-    <Navbar color="info" light expand="md">
+    <Navbar className="navbar-dark bg-dark" expand="md">
       <Link href="/">
         <a className="navbar-brand">
           <strong>Ma petite création</strong>

@@ -19,7 +19,7 @@ import { faDatabase } from "@fortawesome/free-solid-svg-icons";
 export const itemsEnvironment = [
   { logo: faUbuntu, color: "#e95420", title: "Ubuntu" },
   { logo: faGit, color: "#f64d27", title: "Git" },
-  { logo: faGithub, color: "#333", title: "Github" },
+  { logo: faGithub, color: "gray", title: "Github" },
   { logo: faGitlab, color: "#fc6d26", title: "Gitlab" },
   { logo: faTrello, color: "#0079bf", title: "Trello" },
   { logo: faSlack, color: "#4A154B", title: "Slack" },

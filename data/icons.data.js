@@ -16,7 +16,7 @@ export const icons = [
       <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
         <g
           transform="translate(-247.000000, -138.000000)"
-          fill="#000000"
+          fill="#808080"
           fillRule="nonzero"
         >
           <g transform="translate(247.000000, 138.000000)">

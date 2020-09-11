@@ -45,6 +45,7 @@ const TypeWriter = () => {
 
           .hello {
             font-family: Courier New, Courier, monospace;
+            color: var(--success);
           }
 
           h2,

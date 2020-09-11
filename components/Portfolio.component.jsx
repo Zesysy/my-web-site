@@ -7,8 +7,8 @@ const PortfolioComponent = () => {
     <>
       <section>
         <Row className="mt-3 m-0 flex-column align-items-center">
-          <h3>Portfolio</h3>
-          <p>
+          <h2>Portfolio</h2>
+          <p className="warningParagraph">
             Cliquez sur les noms des projets pour accéder au site ou à un
             apperçu.
           </p>
@@ -33,6 +33,10 @@ const PortfolioComponent = () => {
       </section>
       <style jsx>
         {`
+          .warningParagraph {
+            color: var(--warning);
+          }
+
           .borderCustom {
             border-color: #4aa9a9 !important;
           }
