@@ -1,34 +1,8 @@
 export const items = [
   {
-    title: "Journal d'une Todo",
-    subtitle:
-      "Javascript - ReactJs - Redux - Firebase - Firestore - Formik - Yup",
-    link: "https://diary-todo.netlify.app/",
-    description: (
-      <p>
-        Application de gestion de tâches :<br />
-        - création de composants styliser avec Styled Components (création de
-        variable de couleur, condition d'affichage en fonction des propriétés
-        récupérées...)
-        <br />
-        - gestions de formulaires et validation des entrées avec Formik et Yup
-        <br />
-        - mise en place et gestion d'une authentification avec Firebase,
-        Firestore, Redux et les librairies permettant de les lier plus
-        facilement comme React-Redux-Firebase (création/modification/suppression
-        de profil, vérification d'email, récupération de mot de passe...)
-        <br />
-        - gestion des routes en fonction de la connexion de l'utilisateur
-        <br />
-        - récupération/création/modification/suppresion de tâches.
-        <br />
-      </p>
-    ),
-  },
-  {
     title: "Follow The Map",
     subtitle:
-      "Java - Spring - Jpa - Hibernate - PostgresSql - Thymeleaf - MapBox - Javascript",
+      "Java JEE - Spring - Jpa - Hibernate - PostgreSql - Thymeleaf - MapBox - Javascript",
     link: "/static/followTheMap.png",
     description: (
       <p>
@@ -58,7 +32,7 @@ export const items = [
         magasins avec dégradé de couleurs en fonction de leur concentration ou
         de la moyenne du chiffre d'affaire par ville
         <br />
-        - création d'une base de données sur AWS avec PostgresSql pour permettre
+        - création d'une base de données sur AWS avec PostgreSql pour permettre
         la sauvegarde des paramètres d'une carte (latitude et longitude d'un
         point, le zoom, et un style)
         <br />
@@ -73,8 +47,75 @@ export const items = [
     ),
   },
   {
+    title: "Librairie connectée",
+    subtitle: "Javascript - Angular - Firebase - RxJs",
+    link: "https://my-connected-library.netlify.app/books",
+    description: (
+      <p>
+        Découverte de Angular :<br />
+        - mise en place d'un environnement Angular
+        <br />
+        - découverte de Typescript
+        <br />- ajout d'une création d'utilisateur avec Firebase <br />-
+        possibilité d'ajouter une image dans la base de données <br />- gestion
+        des formulaires avec Angular <br />- mise en place d'observable avec
+        RxJs
+      </p>
+    ),
+  },
+  {
+    title: "Your Todo List",
+    subtitle:
+      "Java JEE - Spring - Jpa - Hibernate - PostgreSql - Thymeleaf - Heroku",
+    link: "https://your-todos-list.herokuapp.com/",
+    description: (
+      <p>
+        Check point de fin de formation -{">"} Réaliser en moins de 24h une
+        application mobilisant les connaissances acquises durant la formation :
+        <br />
+        - création de la base de données avec MySql dans un premier temps
+        <br />- récupération / création / modification / suppresion des tâches
+        <br />
+        - création d'une API Restet et d'un controlleur pouvant intéragir avec
+        le front (Thymeleaf)
+        <br /> - mise en place d'une authentification avec Spring Security (à
+        finaliser)
+        <br /> - ajout (après le check point) d'un environnement de production
+        avec une base de données PostgreSql hébergée sur Heroku
+        <br />- hébergement de l'application sur Heroku.
+      </p>
+    ),
+  },
+  {
+    title: "Journal d'une Todo",
+    subtitle:
+      "Javascript - ReactJs - Redux - Firebase - Firestore - Formik - Yup",
+    link: "https://diary-todo.netlify.app/",
+    description: (
+      <p>
+        Application de gestion de tâches :<br />
+        - création de composants styliser avec Styled Components (création de
+        variable de couleur, condition d'affichage en fonction des propriétés
+        récupérées...)
+        <br />
+        - gestions de formulaires et validation des entrées avec Formik et Yup
+        <br />
+        - mise en place et gestion d'une authentification avec Firebase,
+        Firestore, Redux et les librairies permettant de les lier plus
+        facilement comme React-Redux-Firebase (création/modification/suppression
+        de profil, vérification d'email, récupération de mot de passe...)
+        <br />
+        - gestion des routes en fonction de la connexion de l'utilisateur
+        <br />
+        - récupération / création / modification / suppresion de tâches.
+        <br />
+      </p>
+    ),
+  },
+
+  {
     title: "Charlie's Angels",
-    subtitle: "Java - Spring - Jdbc - MySql - Thymeleaf",
+    subtitle: "Java JEE - Spring - Jdbc - MySql - Thymeleaf",
     link: "https://btz-java-2003-pjt1-blog.javarover.wilders.dev/",
     description: (
       <p>
@@ -88,7 +129,8 @@ export const items = [
         - récupération/création/modification/suppresion des articles
         <br />
         - affichage des articles par leur date de création
-        <br />- ajout d'un filtre des articles par leur catégories.
+        <br />
+        - ajout d'un filtre des articles par leur catégories.
         <br />
         Ce projet a été réalisé en groupe de quatres personnes, en mode Agile,
         sur deux semaines.
@@ -152,7 +194,7 @@ export const items = [
         Tout cela en respectant le Règlement à la Protection de la Donnée
         <br />
         Le site, qui a évolué depuis, est accessible mais nécessite d'avoir un
-        code d'authentification.
+        code utilisateur.
       </p>
     ),
   },

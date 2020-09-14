@@ -35,7 +35,7 @@ export const itemsDevlopment = [
   {
     logo: faJava,
     color: "#2e68ab",
-    title: "Java",
+    title: "Java JEE",
   },
   { logo: "spring" },
   { logo: faNodeJs, color: "#43853d", title: "NodeJs" },
