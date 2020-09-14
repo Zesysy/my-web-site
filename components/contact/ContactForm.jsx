@@ -1,7 +1,7 @@
 import { Button, Form, Card, CardHeader, CardBody, Row, Col } from "reactstrap";
 import { useState } from "react";
 
-import InputCustom from "./utils/Input";
+import InputCustom from "./Input";
 
 const encode = (data) => {
   return Object.keys(data)

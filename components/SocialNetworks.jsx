@@ -20,7 +20,7 @@ const SocialNetworks = ({ size }) => {
           <FontAwesomeIcon
             icon={item.logo}
             size={size}
-            color="gray"
+            color="var(--success)"
             className="linkSocialNetwork"
           />
         </a>
@@ -29,7 +29,7 @@ const SocialNetworks = ({ size }) => {
         <style>
           {`
             .linkSocialNetwork:hover {
-              color: var(--info) !important;
+              color: var(--secondary) !important;
             }
           `}
         </style>
