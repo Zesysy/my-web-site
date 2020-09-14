@@ -62,6 +62,10 @@ const Qualifications = () => {
             span {
               font-size: 0.7rem;
             }
+
+            .textQualifications {
+              margin-top: 10px;
+            }
           }
         `}
       </style>

@@ -66,7 +66,7 @@ const TypeWriter = () => {
           @media (max-width: 699px) {
             .hello,
             h2 {
-              font-size: 1.2rem;
+              font-size: 1.1rem;
             }
 
             h3 {

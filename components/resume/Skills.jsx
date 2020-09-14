@@ -42,11 +42,14 @@ const Skills = () => {
                 {item.logo === "redux" ? (
                   <IconCustom id="Redux" content={icons[0].content} />
                 ) : item.logo === "nextJs" ? (
-                  <IconCustom
-                    id="NextJs"
-                    content={icons[1].content}
-                    position={icons[1].position}
-                  />
+                  <>
+                    <IconCustom
+                      id="NextJs"
+                      content={icons[1].content}
+                      position={icons[1].position}
+                    />
+                    <br />
+                  </>
                 ) : item.logo === "spring" ? (
                   <IconCustom
                     id="Spring"
@@ -58,7 +61,7 @@ const Skills = () => {
                 ) : (
                   <FontAwesomeIcon
                     icon={item.logo}
-                    className="align-middle m-2"
+                    className="align-middle m-1"
                     size="2x"
                     color={item.color}
                     title={item.title}

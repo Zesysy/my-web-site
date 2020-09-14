@@ -25,7 +25,7 @@ const ResumeHeader = () => {
 
   return (
     <>
-      <section className="mb-5">
+      <section className="mb-md-5">
         <Row className="m-0 mt-3">
           <Col lg="9" md="7">
             <h3>Sylène Manusset</h3>

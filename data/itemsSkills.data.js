@@ -29,9 +29,13 @@ export const itemsEnvironment = [
 export const itemsDevlopment = [
   { logo: faHtml5, color: "#de6e3c", title: "Html5" },
   { logo: faCss3Alt, color: "#53a7dc", title: "CSS3" },
+  { logo: faBootstrap, color: "#563d7c", title: "Bootstrap" },
   { logo: faJsSquare, color: "#f1de4f", title: "JavaScript" },
   { logo: faReact, color: "#62d4fa", title: "ReactJs" },
+  { logo: faVuejs, color: "#5eb983", title: "VueJs" },
+  { logo: faAngular, color: "#df4230", title: "VueJs" },
   { logo: "redux" },
+  { logo: "nextJs" },
   {
     logo: faJava,
     color: "#2e68ab",
@@ -39,9 +43,5 @@ export const itemsDevlopment = [
   },
   { logo: "spring" },
   { logo: faNodeJs, color: "#43853d", title: "NodeJs" },
-  { logo: faBootstrap, color: "#563d7c", title: "Bootstrap" },
   { logo: faDatabase, color: "#e48f29", title: "MySql" },
-  { logo: faVuejs, color: "#5eb983", title: "VueJs" },
-  { logo: faAngular, color: "#df4230", title: "VueJs" },
-  { logo: "nextJs" },
 ];

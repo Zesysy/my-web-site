@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const IconCustom = ({ id, size, position, box, content }) => (
   <i aria-hidden={true} title={id}>
     <svg
-      className={`svg-inline--fa fa-null fa-pull-null ${size} ${position}`}
+      className={`svg-inline--fa fa-null fa-pull-null m-2 ${size} ${position}`}
       xmlns="http://www.w3.org/2000/svg"
       viewBox={`0 -20 ${box} 100`}
     >
