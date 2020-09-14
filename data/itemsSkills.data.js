@@ -12,6 +12,7 @@ import {
   faGitlab,
   faTrello,
   faSlack,
+  faAngular,
   faVuejs,
 } from "@fortawesome/free-brands-svg-icons";
 import { faDatabase } from "@fortawesome/free-solid-svg-icons";
@@ -19,7 +20,7 @@ import { faDatabase } from "@fortawesome/free-solid-svg-icons";
 export const itemsEnvironment = [
   { logo: faUbuntu, color: "#e95420", title: "Ubuntu" },
   { logo: faGit, color: "#f64d27", title: "Git" },
-  { logo: faGithub, color: "gray", title: "Github" },
+  { logo: faGithub, color: "white", title: "Github" },
   { logo: faGitlab, color: "#fc6d26", title: "Gitlab" },
   { logo: faTrello, color: "#0079bf", title: "Trello" },
   { logo: faSlack, color: "#4A154B", title: "Slack" },
@@ -41,5 +42,6 @@ export const itemsDevlopment = [
   { logo: faBootstrap, color: "#563d7c", title: "Bootstrap" },
   { logo: faDatabase, color: "#e48f29", title: "MySql" },
   { logo: faVuejs, color: "#5eb983", title: "VueJs" },
+  { logo: faAngular, color: "#df4230", title: "VueJs" },
   { logo: "nextJs" },
 ];

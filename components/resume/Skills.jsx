@@ -5,7 +5,7 @@ import { Row, Col } from "reactstrap";
 import IconCustom from "../IconCustom";
 
 import { icons } from "../../data/icons.data";
-import { itemsDevlopment, itemsEnvironment } from "../../data/itemsSkills";
+import { itemsDevlopment, itemsEnvironment } from "../../data/itemsSkills.data";
 
 const Skills = () => {
   return (
@@ -89,6 +89,11 @@ const Skills = () => {
 
       <style jsx>
         {`
+          h4,
+          h6 {
+            color: white;
+          }
+
           .textSkills {
             font-size: 0.9rem;
           }

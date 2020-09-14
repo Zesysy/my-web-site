@@ -12,7 +12,7 @@ const BodyResume = () => {
         <Col lg="6">
           <Experiences />
         </Col>
-        <Col lg="6" >
+        <Col lg="6">
           <Qualifications />
         </Col>
       </Row>
