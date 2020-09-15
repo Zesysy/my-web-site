@@ -49,7 +49,7 @@ export const items = [
   {
     title: "Librairie connectée",
     subtitle: "Javascript - Angular - Firebase - RxJs",
-    link: "https://my-connected-library.netlify.app/books",
+    link: "https://my-connected-library.netlify.app/auth/signup",
     description: (
       <p>
         Découverte de Angular :<br />
@@ -143,6 +143,7 @@ export const items = [
     link: "https://appli-meteo.netlify.app/",
     description: (
       <p>
+      **Pensée uniquement pour évoluer sur téléphone**<br />
         Découverte de VueJs :<br />
         - utilisation de conditions affichage de variables dans les templates
         <br />
