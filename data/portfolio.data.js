@@ -49,7 +49,7 @@ export const items = [
   {
     title: "Librairie connectée",
     subtitle: "Javascript - Angular - Firebase - RxJs",
-    link: "https://my-connected-library.netlify.app/auth/signup",
+    link: "https://my-connected-library.netlify.app/",
     description: (
       <p>
         Découverte de Angular :<br />
