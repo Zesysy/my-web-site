@@ -2,14 +2,14 @@ export const items = [
   {
     title: "Follow The Map",
     subtitle:
-      "Java JEE - Spring - Jpa - Hibernate - PostgreSql - Thymeleaf - MapBox - Javascript",
+      "Java JEE - Spring - Jpa - Hibernate - PostgreSql - Thymeleaf - MapBox - Javascript - Bootstrap",
     link: "/static/followTheMap.png",
     description: (
       <p>
         Projet de formation avec clients réels, Follow The Market.
         <br />
         Ils souhaitaient intégrer à leur solution existante une carte qui
-        permettrait la visualiation des données de leur client.
+        permettrait la visualisation des données de leur client.
         <br />
         Réalisation :
         <br />
@@ -32,11 +32,11 @@ export const items = [
         magasins avec dégradé de couleurs en fonction de leur concentration ou
         de la moyenne du chiffre d'affaire par ville
         <br />
-        - création d'une base de données sur AWS avec PostgreSql pour permettre
+        - création d'une base de données sur AWS avec PostgreSQL pour permettre
         la sauvegarde des paramètres d'une carte (latitude et longitude d'un
-        point, le zoom, et un style)
+        point, le zoom et un style)
         <br />
-        - ajout d'un formulaire pour permettre la sauvegarde de ces paramètres.
+        - ajout d'un formulaire pour permettre la sauvegarde de ces paramètres
         <br />
         - affichage de périmètre de déplacement possible autour d'un point en
         fonction du moyen de locomotion et de la durée souhaitée
@@ -48,7 +48,7 @@ export const items = [
   },
   {
     title: "Librairie connectée",
-    subtitle: "Javascript - Angular - Firebase - RxJs",
+    subtitle: "Javascript - Angular - Firebase - RxJs - Bootstrap",
     link: "https://my-connected-library.netlify.app/books",
     description: (
       <p>
@@ -59,21 +59,21 @@ export const items = [
         <br />- ajout d'une création d'utilisateur avec Firebase <br />-
         possibilité d'ajouter une image dans la base de données <br />- gestion
         des formulaires avec Angular <br />- mise en place d'observable avec
-        RxJs
+        RxJs.
       </p>
     ),
   },
   {
     title: "Your Todo List",
     subtitle:
-      "Java JEE - Spring - Jpa - Hibernate - PostgreSql - Thymeleaf - Heroku",
+      "Java JEE - Spring - Jpa - Hibernate - PostgreSql - Thymeleaf - Heroku - Bootstrap",
     link: "https://your-todos-list.herokuapp.com/",
     description: (
       <p>
         Check point de fin de formation -{">"} Réaliser en moins de 24h une
         application mobilisant les connaissances acquises durant la formation :
         <br />
-        - création de la base de données avec MySql dans un premier temps
+        - création de la base de données avec MySQL dans un premier temps
         <br />- récupération / création / modification / suppresion des tâches
         <br />
         - création d'une API Restet et d'un controlleur pouvant intéragir avec
@@ -81,7 +81,7 @@ export const items = [
         <br /> - mise en place d'une authentification avec Spring Security (à
         finaliser)
         <br /> - ajout (après le check point) d'un environnement de production
-        avec une base de données PostgreSql hébergée sur Heroku
+        avec une base de données PostgreSQL hébergée sur Heroku
         <br />- hébergement de l'application sur Heroku.
       </p>
     ),
@@ -89,7 +89,7 @@ export const items = [
   {
     title: "Journal d'une Todo",
     subtitle:
-      "Javascript - ReactJs - Redux - Firebase - Firestore - Formik - Yup",
+      "Javascript - ReactJs - Redux - Firebase - Firestore - Formik - Yup - Styled Components - PropTypes",
     link: "https://diary-todo.netlify.app/",
     description: (
       <p>
@@ -115,7 +115,7 @@ export const items = [
 
   {
     title: "Charlie's Angels",
-    subtitle: "Java JEE - Spring - Jdbc - MySql - Thymeleaf",
+    subtitle: "Java - Spring - Jdbc - MySql - Thymeleaf - Bootstrap",
     link: "https://btz-java-2003-pjt1-blog.javarover.wilders.dev/",
     description: (
       <p>
@@ -124,13 +124,13 @@ export const items = [
         il pourrait créer des articles (CRUD).
         <br />
         Réalisation :<br />
-        - modélisation et création de la Base de données (Mysql)
+        - modélisation et création de la Base de données (MySQL)
         <br />
         - récupération/création/modification/suppresion des articles
         <br />
         - affichage des articles par leur date de création
         <br />
-        - ajout d'un filtre des articles par leur catégories.
+        - ajout d'un filtre des articles par leurs catégories
         <br />
         Ce projet a été réalisé en groupe de quatres personnes, en mode Agile,
         sur deux semaines.
@@ -139,7 +139,7 @@ export const items = [
   },
   {
     title: "Application Météo",
-    subtitle: "Javascript - VueJs - MomentJs",
+    subtitle: "Javascript - VueJs - Fetch - MomentJs",
     link: "https://appli-meteo.netlify.app/",
     description: (
       <p>
@@ -154,7 +154,7 @@ export const items = [
   },
   {
     title: "Lovely Movie",
-    subtitle: "Javascript - ReactJs",
+    subtitle: "Javascript - ReactJs - Bootstrap - PropTypes - Fetch",
     link: "https://lovely-movie.netlify.com/",
     description: (
       <p>
@@ -167,12 +167,13 @@ export const items = [
   },
   {
     title: "AudioWizard",
-    subtitle: "Javascript - ReactJs - Php - Symphony - Api Platform - MomentJs",
+    subtitle:
+      "Javascript - ReactJs - Bootstrap - Axios - PropTypes - Php - Symphony - Api Platform - MomentJs",
     link: "https://app.audiowizard.fr/#/",
     description: (
       <p>
         Lors de mon stage, nous avons travaillé à la création d'une application
-        Web qui serait un outils de suivi de patients d'audioprothésistes.
+        Web qui serait un outil de suivi de patients d'audioprothésistes.
         <br />
         Ma mission était de :<br />
         - générer les vues en me basant sur le wireframe et en respectant la
@@ -187,7 +188,7 @@ export const items = [
         - connecter l'application à notre Api pour permettre des requêtes
         (Axios) à celle-ci et la gestion des données utilisateurs ou patients
         <br />
-        - permettre la modification de compte-rendu (CKEditor) déjà pré-remplis
+        - permettre la modification de compte-rendu (CKEditor) déjà pré remplis
         avec les données récupérées sur l'Api, le but étant à terme de les
         envoyer par email
         <br />
@@ -200,18 +201,19 @@ export const items = [
   },
   {
     title: "Izanami Web",
-    subtitle: "Javascript - ReactJs - NodeJs - ReduxForm -ReactPdf",
+    subtitle:
+      "Javascript - ReactJs - Redux - NodeJs - ReduxForm - ReactPdf - Axios - Bootstrap",
     link: "/static/izanamiWeb.png",
     description: (
       <p>
         Projet de formation avec client réel, Investoweb.
         <br />
-        Il souhaitait proposait un nouvel outils de travail, plus ergonomique
-        que celui utilisé, à un de leur collaborateur, une entreprise de pompes
+        Il souhaitait proposait un nouvel outil de travail, plus ergonomique que
+        celui utilisé, à un de leur collaborateur, une entreprise de pompes
         funèbres.
         <br />
         Réalisation :<br />
-        - compréhension de l'outils existant afin de reproduire ses
+        - compréhension de l'outil existant afin de reproduire ses
         fonctionnalités
         <br />
         - récupération de toutes les entrées du premier logiciel (nom des
@@ -227,7 +229,7 @@ export const items = [
         <br />
         - téléchargement et impression de ses documents
         <br />- création des routes qui permettront à terme récupérer ces
-        éléments sur la base de données du client.
+        éléments sur la base de données du client
         <br />
         Projet privé, non déployé (aperçu disponible), et réalisé en groupe de
         cinq personnes, en mode Agile, sur huit semaines.
@@ -236,7 +238,7 @@ export const items = [
   },
   {
     title: "WoW Search",
-    subtitle: "Javascript - ReactJs",
+    subtitle: "Javascript - ReactJs - Axios - Bootstrap",
     link: "https://wow-search-engine.netlify.com/",
     description: (
       <p>
@@ -253,7 +255,7 @@ export const items = [
         <br />
         - affichage des Raids et Dongeons réalisés sous forme de barre de
         progression
-        <br />- ajout d'un top cinq des meilleurs joueurs.
+        <br />- ajout d'un top cinq des meilleurs joueurs
         <br />
         Projet réalisé en groupe de trois personnes, en mode Agile, sur cinq
         semaines.
@@ -266,7 +268,7 @@ export const items = [
     link: "https://zesysy.github.io/wildCircus/",
     description: (
       <p>
-        Projet d'amission à la Wild Code School. Je devais réaliser un site en
+        Projet d'admission à la Wild Code School. Je devais réaliser un site en
         respectant le thème (du cirque) et une liste de recommandations.
         <br />
         Mes premiers pas dans le monde du web, ma toute première réalisation, un
