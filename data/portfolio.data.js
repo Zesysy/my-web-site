@@ -3,7 +3,7 @@ export const items = [
     title: "Follow The Map",
     subtitle:
       "Java JEE - Spring - Jpa - Hibernate - PostgreSql - Thymeleaf - MapBox - Javascript - Bootstrap",
-    link: "/static/followTheMap.png",
+    linkWebSite: "/static/followTheMap.png",
     description: (
       <p>
         Projet de formation avec clients réels, Follow The Market.
@@ -49,7 +49,8 @@ export const items = [
   {
     title: "Librairie connectée",
     subtitle: "Javascript - Angular - Firebase - RxJs - Bootstrap",
-    link: "https://my-connected-library.netlify.app/books",
+    linkWebSite: "https://my-connected-library.netlify.app/books",
+    linkGithub: "https://github.com/Zesysy/my-library-angular",
     description: (
       <p>
         Découverte de Angular :<br />
@@ -67,7 +68,8 @@ export const items = [
     title: "Your Todo List",
     subtitle:
       "Java JEE - Spring - Jpa - Hibernate - PostgreSql - Thymeleaf - Heroku - Bootstrap",
-    link: "https://your-todos-list.herokuapp.com/",
+    linkWebSite: "https://your-todos-list.herokuapp.com/",
+    linkGithub: "https://github.com/Zesysy/todo-list-spring",
     description: (
       <p>
         Check point de fin de formation -{">"} Réaliser en moins de 24h une
@@ -75,11 +77,10 @@ export const items = [
         <br />
         - création de la base de données avec MySQL dans un premier temps
         <br />- récupération / création / modification / suppresion des tâches
-        <br />
-        - création d'une API Restet et d'un controlleur pouvant intéragir avec
-        le front (Thymeleaf)
-        <br /> - mise en place d'une authentification avec Spring Security (à
-        finaliser)
+        <br />- création d'une API Rest et d'un controlleur pouvant intéragir
+        avec le front (Thymeleaf)
+        {/* <br /> - mise en place d'une authentification avec Spring Security (à
+        finaliser) */}
         <br /> - ajout (après le check point) d'un environnement de production
         avec une base de données PostgreSQL hébergée sur Heroku
         <br />- hébergement de l'application sur Heroku.
@@ -90,7 +91,8 @@ export const items = [
     title: "Journal d'une Todo",
     subtitle:
       "Javascript - ReactJs - Redux - Firebase - Firestore - Formik - Yup - Styled Components - PropTypes",
-    link: "https://diary-todo.netlify.app/",
+    linkWebSite: "https://diary-todo.netlify.app/",
+    linkGithub: "https://github.com/Zesysy/todo-list-react",
     description: (
       <p>
         Application de gestion de tâches :<br />
@@ -116,7 +118,8 @@ export const items = [
   {
     title: "Charlie's Angels",
     subtitle: "Java - Spring - Jdbc - MySql - Thymeleaf - Bootstrap",
-    link: "https://btz-java-2003-pjt1-blog.javarover.wilders.dev/",
+    linkWebSite: "https://btz-java-2003-pjt1-blog.javarover.wilders.dev/",
+    linkGithub: "https://github.com/Zesysy/projet_blog",
     description: (
       <p>
         Projet de formation avec mise en situation auprès d'un client fictif.
@@ -140,10 +143,12 @@ export const items = [
   {
     title: "Application Météo",
     subtitle: "Javascript - VueJs - Fetch - MomentJs",
-    link: "https://appli-meteo.netlify.app/",
+    linkWebSite: "https://appli-meteo.netlify.app/",
+    linkGithub: "https://github.com/Zesysy/weather-app",
     description: (
       <p>
-        Découverte de VueJs :<br />
+        ** Pensée uniquement mobile **
+        <br /> Découverte de VueJs :<br />
         - utilisation de conditions affichage de variables dans les templates
         <br />
         - appeler des données depuis une Api
@@ -155,7 +160,8 @@ export const items = [
   {
     title: "Lovely Movie",
     subtitle: "Javascript - ReactJs - Bootstrap - PropTypes - Fetch",
-    link: "https://lovely-movie.netlify.com/",
+    linkWebSite: "https://lovely-movie.netlify.com/",
+    linkGithub: "https://github.com/Zesysy/movie-search",
     description: (
       <p>
         Recherche de film :<br />
@@ -169,7 +175,7 @@ export const items = [
     title: "AudioWizard",
     subtitle:
       "Javascript - ReactJs - Bootstrap - Axios - PropTypes - Php - Symphony - Api Platform - MomentJs",
-    link: "https://app.audiowizard.fr/#/",
+    linkWebSite: "https://app.audiowizard.fr/#/",
     description: (
       <p>
         Lors de mon stage, nous avons travaillé à la création d'une application
@@ -203,7 +209,7 @@ export const items = [
     title: "Izanami Web",
     subtitle:
       "Javascript - ReactJs - Redux - NodeJs - ReduxForm - ReactPdf - Axios - Bootstrap",
-    link: "/static/izanamiWeb.png",
+    linkWebSite: "/static/izanamiWeb.png",
     description: (
       <p>
         Projet de formation avec client réel, Investoweb.
@@ -239,7 +245,8 @@ export const items = [
   {
     title: "WoW Search",
     subtitle: "Javascript - ReactJs - Axios - Bootstrap",
-    link: "https://wow-search-engine.netlify.com/",
+    linkWebSite: "https://wow-search-engine.netlify.com/",
+    linkGithub: "https://github.com/Zesysy/WoW-Search-Engine",
     description: (
       <p>
         Projet de formation avec mise en situation auprès d'un client fictif. Il
@@ -265,7 +272,8 @@ export const items = [
   {
     title: "WildCircus",
     subtitle: "HTML5 - CSS3",
-    link: "https://zesysy.github.io/wildCircus/",
+    linkWebSite: "https://zesysy.github.io/wildCircus/",
+    linkGithub: "https://github.com/Zesysy/wildCircus",
     description: (
       <p>
         Projet d'admission à la Wild Code School. Je devais réaliser un site en

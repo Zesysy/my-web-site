@@ -49,16 +49,22 @@ const PortfolioComponent = () => {
           </p>
         </Row>
         <Row className="mt-3 m-0 justify-content-center">
-          {currentCards.map(({ title, subtitle, link, description }, key) => (
-            <Fragment key={key}>
-              <ProjectStructure
-                title={title}
-                subtitle={subtitle}
-                link={link}
-                description={description}
-              />
-            </Fragment>
-          ))}
+          {currentCards.map(
+            (
+              { title, subtitle, linkWebSite, linkGithub, description },
+              key
+            ) => (
+              <Fragment key={key}>
+                <ProjectStructure
+                  title={title}
+                  subtitle={subtitle}
+                  linkWebSite={linkWebSite}
+                  linkGithub={linkGithub}
+                  description={description}
+                />
+              </Fragment>
+            )
+          )}
         </Row>
         <Row className="mt-3 m-0 justify-content-center">
           <PaginationCustom
