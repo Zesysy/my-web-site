@@ -1,10 +1,43 @@
-import { Fragment } from "react";
+import { Fragment, useState } from "react";
 import { Row } from "reactstrap";
 
 import { items } from "../../data/portfolio.data";
+import PaginationCustom from "../structure/PaginationCustom";
 import ProjectStructure from "./ProjectStructure";
 
 const PortfolioComponent = () => {
+  const [currentPage, setCurrentPage] = useState(1);
+  const [cardsPerPage] = useState(3);
+
+  // Get index of card to display only 3 cards per page
+  const indexOfLastCard = cardsPerPage * currentPage;
+  const indexOfFirstCard = indexOfLastCard - cardsPerPage;
+  const currentCards = items.slice(indexOfFirstCard, indexOfLastCard);
+
+  const paginate = (pageNum) => {
+    setCurrentPage(pageNum);
+  };
+
+  // If current card is equal at last card => block paginate
+  const nextPage = () => {
+    currentPage < Math.ceil(items.length / cardsPerPage)
+      ? setCurrentPage(currentPage + 1)
+      : false;
+  };
+
+  // If current card is equal at first card => block paginate
+  const prevPage = () => {
+    currentPage > 1 ? setCurrentPage(currentPage - 1) : false;
+  };
+
+  const firstPage = () => {
+    setCurrentPage(1);
+  };
+
+  const lastPage = () => {
+    setCurrentPage(Math.ceil(items.length / cardsPerPage));
+  };
+
   return (
     <>
       <section>
@@ -16,7 +49,7 @@ const PortfolioComponent = () => {
           </p>
         </Row>
         <Row className="mt-3 m-0 justify-content-center">
-          {items.map(({ title, subtitle, link, description }, key) => (
+          {currentCards.map(({ title, subtitle, link, description }, key) => (
             <Fragment key={key}>
               <ProjectStructure
                 title={title}
@@ -26,6 +59,17 @@ const PortfolioComponent = () => {
               />
             </Fragment>
           ))}
+        </Row>
+        <Row className="mt-3 m-0 justify-content-center">
+          <PaginationCustom
+            cardsPerPage={cardsPerPage}
+            totalCards={items.length}
+            paginate={paginate}
+            nextPage={nextPage}
+            prevPage={prevPage}
+            firstPage={firstPage}
+            lastPage={lastPage}
+          />
         </Row>
       </section>
       <style jsx>
