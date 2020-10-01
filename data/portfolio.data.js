@@ -1,5 +1,6 @@
 export const items = [
   {
+    overview: "/static/followTheMap-overview.png",
     title: "Follow The Map",
     subtitle:
       "Java JEE - Spring - Jpa - Hibernate - PostgreSql - Thymeleaf - MapBox - Javascript - Bootstrap",
@@ -47,6 +48,7 @@ export const items = [
     ),
   },
   {
+    overview: "/static/librairie.png",
     title: "Librairie connectée",
     subtitle: "Javascript - Angular - Firebase - RxJs - Bootstrap",
     linkWebSite: "https://my-connected-library.netlify.app/books",
@@ -65,6 +67,7 @@ export const items = [
     ),
   },
   {
+    overview: "/static/your-todos.png",
     title: "Your Todo List",
     subtitle:
       "Java JEE - Spring - Jpa - Hibernate - PostgreSql - Thymeleaf - Heroku - Bootstrap",
@@ -88,6 +91,7 @@ export const items = [
     ),
   },
   {
+    overview: "/static/diary-todos.png",
     title: "Journal d'une Todo",
     subtitle:
       "Javascript - ReactJs - Redux - Firebase - Firestore - Formik - Yup - Styled Components - PropTypes",
@@ -116,6 +120,7 @@ export const items = [
   },
 
   {
+    overview: "/static/blog.png",
     title: "Charlie's Angels",
     subtitle: "Java - Spring - Jdbc - MySql - Thymeleaf - Bootstrap",
     linkWebSite: "https://btz-java-2003-pjt1-blog.javarover.wilders.dev/",
@@ -141,6 +146,7 @@ export const items = [
     ),
   },
   {
+    overview: "/static/weather.png",
     title: "Application Météo",
     subtitle: "Javascript - VueJs - Fetch - MomentJs",
     linkWebSite: "https://appli-meteo.netlify.app/",
@@ -158,6 +164,7 @@ export const items = [
     ),
   },
   {
+    overview: "/static/movie.png",
     title: "Lovely Movie",
     subtitle: "Javascript - ReactJs - Bootstrap - PropTypes - Fetch",
     linkWebSite: "https://lovely-movie.netlify.com/",
@@ -172,6 +179,7 @@ export const items = [
     ),
   },
   {
+    overview: "/static/audiowizard.jpeg",
     title: "AudioWizard",
     subtitle:
       "Javascript - ReactJs - Bootstrap - Axios - PropTypes - Php - Symphony - Api Platform - MomentJs",
@@ -206,6 +214,7 @@ export const items = [
     ),
   },
   {
+    overview: "/static/izanamiWeb-overview.png",
     title: "Izanami Web",
     subtitle:
       "Javascript - ReactJs - Redux - NodeJs - ReduxForm - ReactPdf - Axios - Bootstrap",
@@ -243,6 +252,7 @@ export const items = [
     ),
   },
   {
+    overview: "/static/wow.png",
     title: "WoW Search",
     subtitle: "Javascript - ReactJs - Axios - Bootstrap",
     linkWebSite: "https://wow-search-engine.netlify.com/",
@@ -270,6 +280,7 @@ export const items = [
     ),
   },
   {
+    overview: "/static/wild-circus.png",
     title: "WildCircus",
     subtitle: "HTML5 - CSS3",
     linkWebSite: "https://zesysy.github.io/wildCircus/",

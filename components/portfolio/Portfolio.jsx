@@ -51,7 +51,14 @@ const PortfolioComponent = () => {
         <Row className="mt-3 m-0 justify-content-center">
           {currentCards.map(
             (
-              { title, subtitle, linkWebSite, linkGithub, description },
+              {
+                title,
+                subtitle,
+                linkWebSite,
+                linkGithub,
+                description,
+                overview,
+              },
               key
             ) => (
               <Fragment key={key}>
@@ -61,6 +68,7 @@ const PortfolioComponent = () => {
                   linkWebSite={linkWebSite}
                   linkGithub={linkGithub}
                   description={description}
+                  overview={overview}
                 />
               </Fragment>
             )
