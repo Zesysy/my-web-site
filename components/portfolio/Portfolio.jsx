@@ -91,14 +91,6 @@ const PortfolioComponent = () => {
           .warningParagraph {
             color: var(--warning);
           }
-
-          .borderCustom {
-            border-color: #4aa9a9 !important;
-          }
-
-          @media (max-width: 699px) {
-            border: none !important;
-          }
         `}
       </style>
     </>
