@@ -70,7 +70,7 @@ export const items = [
     overview: "/static/your-todos.png",
     title: "Your Todo List",
     subtitle:
-      "Java JEE - Spring - Jpa - Hibernate - PostgreSql - Thymeleaf - Heroku - Bootstrap",
+      "Java JEE - Spring - Jpa - Hibernate - PostgreSql - Heroku - Thymeleaf - Bootstrap",
     linkWebSite: "https://your-todos-list.herokuapp.com/",
     linkGithub: "https://github.com/Zesysy/todo-list-spring",
     description: (
