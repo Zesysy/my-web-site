@@ -25,12 +25,12 @@ const ResumeHeader = () => {
 
   return (
     <>
-      <section className="mb-5">
+      <section className="mb-md-5">
         <Row className="m-0 mt-3">
           <Col lg="9" md="7">
             <h3>Sylène Manusset</h3>
             <h4 className="text-center">
-              {"/*"}Développeuse Web{"*/"}
+              {"/*"}Développeuse Web Javascript {"&"} Java JEE {"*/"}
             </h4>
           </Col>
           <Col lg="3" md="5">
@@ -47,15 +47,15 @@ const ResumeHeader = () => {
                       {item.label}
                     </a>
                   ) : (
-                      <i>
-                        <FontAwesomeIcon
-                          icon={item.logo}
-                          color="gray"
-                          fixedWidth={true}
-                        />{" "}
-                        {item.label}
-                      </i>
-                    )}
+                    <i>
+                      <FontAwesomeIcon
+                        icon={item.logo}
+                        color="gray"
+                        fixedWidth={true}
+                      />{" "}
+                      {item.label}
+                    </i>
+                  )}
                 </li>
               ))}
             </ul>
@@ -64,6 +64,11 @@ const ResumeHeader = () => {
       </section>
       <style jsx>
         {`
+          h3,
+          h4 {
+            color: white;
+          }
+
           h4 {
             font-family: Courier New, Courier, monospace;
           }
@@ -72,8 +77,6 @@ const ResumeHeader = () => {
             list-style: none;
             border-radius: 5px;
           }
-
-        
 
           @media screen and (min-width: 700px) and (max-width: 1300px) {
             h3 {

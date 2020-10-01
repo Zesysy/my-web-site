@@ -12,11 +12,11 @@ const BodyResume = () => {
         <Col lg="6">
           <Experiences />
         </Col>
-        <Col lg="6" >
+        <Col lg="6">
           <Qualifications />
         </Col>
       </Row>
-      <Row className="justify-content-between ml-2 mt-5">
+      <Row className="justify-content-between ml-md-4 ml-2 mt-md-4 mt-2">
         <Col lg="6">
           <Skills />
         </Col>
@@ -24,7 +24,7 @@ const BodyResume = () => {
           <Hobbies />
         </Col>
       </Row>
-      <Row className="m-2 justify-content-end mt-5">
+      <Row className="mb-2 justify-content-end">
         <a
           tag="button"
           className="btn btn-secondary float-right mr-4"

@@ -1,12 +1,11 @@
 import { Fragment } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUserNurse } from "@fortawesome/free-solid-svg-icons";
 import { Row, Col } from "reactstrap";
 
 import IconCustom from "../IconCustom";
 
 import { icons } from "../../data/icons.data";
-import { itemsDevlopment, itemsCrew, itemsEnvironment } from "../../data/itemsSkills";
+import { itemsDevlopment, itemsEnvironment } from "../../data/itemsSkills.data";
 
 const Skills = () => {
   return (
@@ -41,23 +40,39 @@ const Skills = () => {
             {itemsDevlopment.map((item, key) => (
               <Fragment key={key}>
                 {item.logo === "redux" ? (
-                  <IconCustom id="redux" content={icons[0].content} />
+                  <IconCustom id="Redux" content={icons[0].content} />
                 ) : item.logo === "nextJs" ? (
-                  <IconCustom id="NextJs" content={icons[1].content} position={icons[1].position} />
+                  <>
+                    <IconCustom
+                      id="NextJs"
+                      content={icons[1].content}
+                      position={icons[1].position}
+                    />
+                    <br />
+                  </>
                 ) : item.logo === "spring" ? (
-                  <IconCustom id="Spring" content={icons[2].content} size={icons[2].size} position={icons[2].position} />
+                  <IconCustom
+                    id="Spring"
+                    content={icons[2].content}
+                    box={icons[2].box}
+                    size={icons[2].size}
+                    position={icons[2].position}
+                  />
                 ) : (
-                        <FontAwesomeIcon
-                          icon={item.logo}
-                          className="align-middle m-2"
-                          size="2x"
-                          color={item.color}
-                          title={item.title}
-                          fixedWidth={true}
-                        />
-                      )}
+                  <FontAwesomeIcon
+                    icon={item.logo}
+                    className="align-middle m-1"
+                    size="2x"
+                    color={item.color}
+                    title={item.title}
+                    fixedWidth={true}
+                  />
+                )}
               </Fragment>
             ))}
+            <p className="mt-1">
+              Firebase - Jdbc - Jpa - Hibernate - Thymeleaf
+            </p>
           </Col>
         </Row>
         <Row className="justify-content-between m-0 mt-4">
@@ -77,6 +92,11 @@ const Skills = () => {
 
       <style jsx>
         {`
+          h4,
+          h6 {
+            color: white;
+          }
+
           .textSkills {
             font-size: 0.9rem;
           }

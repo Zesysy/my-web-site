@@ -12,13 +12,13 @@ const Footer = () => {
   return (
     <>
       {router.pathname !== "/" ? (
-        <footer>
+        <footer className="navbar-dark bg-dark">
           <Row className="justify-content-center m-0">
             <SocialNetworks size="2x" />
           </Row>
         </footer>
       ) : (
-        <footer>
+        <footer className="navbar-dark bg-dark">
           <Row className="justify-content-center m-0">
             <i className="m-2">
               <FontAwesomeIcon
@@ -40,7 +40,6 @@ const Footer = () => {
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: var(--info);
           }
 
           @media (max-width: 699px) {

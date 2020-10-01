@@ -5,13 +5,13 @@ const WithHead = () => {
     <>
       <Head>
         <title>
-          Ma petite création - Portfolio d'un développeur javascript et java - Sylène
-          Manusset
+          Ma petite création - Portfolio d'un développeur javascript et java -
+          Sylène Manusset
         </title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link
           rel="stylesheet"
-          href="https://bootswatch.com/4/minty/bootstrap.min.css"
+          href="https://bootswatch.com/4/solar/bootstrap.min.css"
         />
         <link
           rel="stylesheet"
@@ -21,11 +21,6 @@ const WithHead = () => {
         />
         <link rel="icon" type="image/png" href="/static/travel.png" />
       </Head>
-      <style jsx global>{`
-        body {
-          background: #fefdf0;
-        }
-      `}</style>
     </>
   );
 };

@@ -1,33 +1,59 @@
 const Experiences = () => {
   return (
     <>
-      <article>
+      <article className="textExperience pl-md-4">
         <h4>Expériences</h4>
-        <p className="textExperiences">
-          <strong>Développeur Web chez AudioWizard,</strong>{" "}
-          <span>août/novembre 2019</span>, <span>Lyon (stage 100% remote)</span>
-          <br />
-          Au sein d’une start-up en création et intégrée dans une équipe de
-          trois développeurs.
-        </p>
+        <table>
+          <tbody>
+            <tr className="align-top">
+              <td>06/20 - 07/20 (1 mois)</td>
+              <td>
+                <strong className="ml-1">
+                  Développeuse Java JEE / Spring,{" "}
+                </strong>
+                <span>Follow the Market</span>, Lille
+                <br />
+                Stage en télétravail pour une start-up proposant un outils de
+                suivi des performances sur le marché de leur clients{" "}
+              </td>
+            </tr>
+            <tr className="align-top">
+              <td>08/19 - 11/19 (4 mois)</td>
+              <td>
+                <strong className="ml-1">
+                  Développeuse Javascript / ReactJs,{" "}
+                </strong>
+                <span>AudioWizard</span>, Lyon
+                <br />
+                Stage en télétravail dans une start-up proposant une solution
+                pour réaliser le suivi médical de patients d'audioprothésistes
+              </td>
+            </tr>
 
-        <p className="textExperiences">
-          <strong>
-            Infirmière Diplômée d’État, GCS centre de cardiologie {"&"} Clinique
-            Aguilera,
-          </strong>{" "}
-          <span>2011/2019 </span>
-        </p>
+            <tr className="align-top">
+              <td>2011</td>
+              <td>
+                <strong className="ml-1"> Infirmière Diplômée d’État,</strong>{" "}
+                <span> GCS centre de cardiologie {"&"} Clinique Aguilera</span>{" "}
+                , Bayonne
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </article>
       <style jsx>
         {`
-          span {
-            color: var(--secondary) !important;
-            text-align: justify;
+          h4 {
+            color: white;
           }
 
-          .textExperiences {
-            font-size: 0.9em;
+          span {
+            color: var(--success);
+            font-weight: 700;
+          }
+
+          .textExperience {
+            font-size: 0.9rem;
           }
 
           @media screen and (min-width: 700px) and (max-width: 1300px) {
@@ -41,7 +67,7 @@ const Experiences = () => {
               font-size: 1.1rem;
             }
 
-            .textExperiences,
+            .textExperience,
             span {
               font-size: 0.7rem;
             }

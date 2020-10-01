@@ -2,11 +2,11 @@ import React, { useState, useEffect, useRef } from "react";
 import useTypewriter from "react-typewriter-hook";
 import { Col } from "reactstrap";
 
-const otherSentences = ["infirmière.", "développeuse Web.", "une battante !!"];
+const otherSentences = ["infirmière", "développeuse web", "une battante !!"];
 let index = 0; // create an js object to have many sentences and an index initialized at 0
 
 const TypeWriter = () => {
-  const [sentence, setSentence] = useState("infirmière."); // initialization the state with the first sentence to display
+  const [sentence, setSentence] = useState("infirmière"); // initialization the state with the first sentence to display
   const intervalRef = useRef({}); // contains an editable value that does not refresh the page
   const text = useTypewriter(sentence);
   useEffect(() => {
@@ -45,6 +45,7 @@ const TypeWriter = () => {
 
           .hello {
             font-family: Courier New, Courier, monospace;
+            color: var(--success);
           }
 
           h2,
@@ -65,7 +66,7 @@ const TypeWriter = () => {
           @media (max-width: 699px) {
             .hello,
             h2 {
-              font-size: 1.2rem;
+              font-size: 1.1rem;
             }
 
             h3 {

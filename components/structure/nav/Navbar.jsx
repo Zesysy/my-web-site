@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Collapse, Navbar, NavbarToggler, Nav } from "reactstrap";
 import Link from "next/link";
 
-import NavItem from "../utils/NavItem";
+import NavItem from "./NavItem";
 
 const NavBarHeader = () => {
   const [isOpen, setIsOpen] = useState(false); // The state of the Toggle for the burger menu in responsive mode
@@ -17,7 +17,7 @@ const NavBarHeader = () => {
   ];
 
   return (
-    <Navbar color="info" light expand="md">
+    <Navbar className="navbar-dark bg-dark" expand="md">
       <Link href="/">
         <a className="navbar-brand">
           <strong>Ma petite création</strong>

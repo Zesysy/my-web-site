@@ -1,23 +1,26 @@
+import { itemsHobbies } from "../../data/itemsHobbies.data";
+
 const Hobbies = () => {
-  const itemsHobbie = [
-    { text: "Lectures (science fiction, fantaisie, romans…)" },
-    { text: "Cinéma, musée, théâtre, voyages, musique" },
-    { text: "Cuisiner (surtout les gâteaux 😉)." },
-  ];
-
-
   return (
     <>
       <article className="mb-4 pl-md-4">
         <h4>Centres d'intérêts</h4>
         <ul className="textHobbies">
-          {itemsHobbie.map((item, key) => (
+          {itemsHobbies.map((item, key) => (
             <li key={key}>{item.text}</li>
           ))}
         </ul>
       </article>
       <style jsx>
         {`
+          h4 {
+            color: white;
+          }
+
+          ul {
+            list-style: none;
+          }
+
           .textHobbies {
             font-size: 0.9rem;
           }

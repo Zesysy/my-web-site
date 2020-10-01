@@ -1,7 +1,7 @@
 import { Row, Col } from "reactstrap";
 
 import TypeWriter from "./TypeWriter";
-import SocialNetworks from "./SocialNetworks";
+import SocialNetworks from "../SocialNetworks";
 
 const About = () => {
   return (
@@ -15,12 +15,15 @@ const About = () => {
                 Début 2019 j'ai changé de direction. J'ai lâché mes aiguilles et
                 raccroché ma blouse pour un nouveau défi !
                 <br />
-                Après une première formation pour devenir développeuse, où j'ai
-                commencé par être formée sur Javascript et ReactJs, et une
-                nouvelle formation pour apprendre Java, cela fait maitenant plus
-                d'un an que je code en toute autonomie. <br />
+                Souhaitant retrouver un côté créatif et nourrir quotidiennement
+                ma curiosité dans mon travail, j'ai choisi le métier de
+                développeur. <br />
+                Après une première formation, où j'ai commencé par être formée
+                sur Javascript, et une nouvelle durant laquelle j'ai codé en
+                Java JEE, cela fait maitenant plus d'un an que je code en toute
+                autonomie. <br />
                 Je suis à la recherche d'une opportunité en tant que
-                développeuse Web.
+                développeuse web.
               </p>
             </Col>
           </Row>
@@ -36,7 +39,7 @@ const About = () => {
               display: flex;
               align-items: center;
             }
-            
+
             .socialIcons {
               display: flex;
               justify-content: center;
