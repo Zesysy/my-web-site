@@ -51,7 +51,7 @@ export const items = [
     overview: "/static/librairie.png",
     title: "Librairie connectée",
     subtitle: "Javascript - Angular - Firebase - RxJs - Bootstrap",
-    linkWebSite: "https://my-connected-library.netlify.app/books",
+    linkWebSite: "https://my-connected-library.netlify.app/",
     linkGithub: "https://github.com/Zesysy/my-library-angular",
     description: (
       <p>
