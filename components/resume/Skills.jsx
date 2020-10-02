@@ -2,10 +2,11 @@ import { Fragment } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Row, Col } from "reactstrap";
 
-import IconCustom from "../IconCustom";
-
-import { icons } from "../../data/icons.data";
-import { itemsDevlopment, itemsEnvironment } from "../../data/itemsSkills.data";
+import {
+  itemsBack,
+  itemsEnvironment,
+  itemsFront,
+} from "../../data/itemsSkills.data";
 
 const Skills = () => {
   return (
@@ -22,56 +23,55 @@ const Skills = () => {
         </Row>
         <Row className="justify-content-between m-0">
           <Col lg="6" md="5">
-            {itemsEnvironment.map((item, key) => (
-              <Fragment key={key}>
-                <FontAwesomeIcon
-                  icon={item.logo}
-                  size="2x"
-                  color={item.color}
-                  className="align-middle m-2"
-                  fixedWidth={true}
-                  title={item.title}
-                />
-                <small>{item.text}</small>
-              </Fragment>
-            ))}
-          </Col>
-          <Col lg="6" md="5">
-            {itemsDevlopment.map((item, key) => (
-              <Fragment key={key}>
-                {item.logo === "redux" ? (
-                  <IconCustom id="Redux" content={icons[0].content} />
-                ) : item.logo === "nextJs" ? (
-                  <>
-                    <IconCustom
-                      id="NextJs"
-                      content={icons[1].content}
-                      position={icons[1].position}
-                    />
-                    <br />
-                  </>
-                ) : item.logo === "spring" ? (
-                  <IconCustom
-                    id="Spring"
-                    content={icons[2].content}
-                    box={icons[2].box}
-                    size={icons[2].size}
-                    position={icons[2].position}
-                  />
-                ) : (
+            <p className="mt-1">
+              {itemsEnvironment.map((item, key) => (
+                <Fragment key={key}>
                   <FontAwesomeIcon
                     icon={item.logo}
-                    className="align-middle m-1"
+                    size="2x"
+                    color={item.color}
+                    className="align-middle m-2"
+                    fixedWidth={true}
+                    title={item.title}
+                  />
+                  <small>{item.text}</small>
+                </Fragment>
+              ))}
+              - Agile - Kanban
+            </p>
+          </Col>
+          <Col lg="6" md="5">
+            <p className="mt-1">
+              Front :
+              {itemsFront.map((item, key) => (
+                <Fragment key={key}>
+                  <FontAwesomeIcon
+                    icon={item.logo}
+                    className="align-middle m-2"
                     size="2x"
                     color={item.color}
                     title={item.title}
                     fixedWidth={true}
                   />
-                )}
-              </Fragment>
-            ))}
+                </Fragment>
+              ))}
+              - NextJs - Redux - Thymeleaf
+            </p>
             <p className="mt-1">
-              Firebase - Jdbc - Jpa - Hibernate - Thymeleaf
+              Back :
+              {itemsBack.map((item, key) => (
+                <Fragment key={key}>
+                  <FontAwesomeIcon
+                    icon={item.logo}
+                    className="align-middle m-2"
+                    size="2x"
+                    color={item.color}
+                    title={item.title}
+                    fixedWidth={true}
+                  />
+                </Fragment>
+              ))}
+              - Express - MySQL - Jdbc - Jpa - Hibernate - Firebase
             </p>
           </Col>
         </Row>

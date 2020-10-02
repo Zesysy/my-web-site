@@ -14,11 +14,14 @@ const ProjectStructure = ({
   return (
     <>
       <div className="col-lg-3 col-sm-6 pl-0 mb-3 mt-3 mr-2 border rounded-bottom borderCustom">
-        <img
-          className="align-left w-md-75 mb-2 ml-1"
-          src={overview}
-          alt="App overview"
-        />
+        <div className="text-center">
+          <img
+            className="mb-2 ml-1"
+            src={overview}
+            alt="App overview"
+            sizes="100"
+          />
+        </div>
         <div className="ml-2">
           <a href={linkWebSite} target="_blank">
             <FontAwesomeIcon icon={faLink} className="mr-1" /> {title}
