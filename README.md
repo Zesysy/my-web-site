@@ -53,6 +53,6 @@ git clone git@github.com:Zesysy/my-web-site.git
 
 - PascalCase for component names
 
-## Authors
+## Author
 
 -  [Sylène](https://github.com/Zesysy) - Developer Javascript & Java
