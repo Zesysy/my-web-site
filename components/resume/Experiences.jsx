@@ -14,7 +14,7 @@ const Experiences = () => {
                 <span>Follow the Market</span>, Lille
                 <br />
                 Stage en télétravail pour une start-up proposant un outils de
-                suivi des performances sur le marché de leur clients{" "}
+                suivi des performances sur le marché de leurs clients{" "}
               </td>
             </tr>
             <tr className="align-top">
@@ -31,7 +31,7 @@ const Experiences = () => {
             </tr>
 
             <tr className="align-top">
-              <td>2011</td>
+              <td>2011 - 2019</td>
               <td>
                 <strong className="ml-1"> Infirmière Diplômée d’État,</strong>{" "}
                 <span> GCS centre de cardiologie {"&"} Clinique Aguilera</span>{" "}
