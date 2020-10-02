@@ -25,7 +25,7 @@ const ProjectStructure = ({
           </a>
           <br />
           {linkGithub ? (
-            <a href={linkWebSite} target="_blank">
+            <a href={linkGithub} target="_blank">
               <FontAwesomeIcon icon={faGithub} className="mr-1" /> Github
             </a>
           ) : (
