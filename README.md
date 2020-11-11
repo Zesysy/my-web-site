@@ -60,6 +60,6 @@ pages  # where all the code is, this is the folder who get all our interest here
 
 - PascalCase for component names
 
-## Authors
+## Author
 
 -  [Sylène](https://github.com/Zesysy) - Web developer
