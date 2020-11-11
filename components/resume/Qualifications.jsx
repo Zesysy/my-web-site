@@ -6,14 +6,14 @@ const Qualifications = () => {
         <table>
           <tbody>
             <tr className="align-top">
-              <td>2020 (3 mois) </td>
+              <td>2020 {">"}</td>
               <td>
                 <strong className="ml-1">ConcepteurJava JEE ( Spring), </strong>
                 <span>Wild Code School</span> de Biarritz
               </td>
             </tr>
             <tr className="align-top">
-              <td>2019 (5 mois) </td>
+              <td>2019 {">"}</td>
               <td>
                 <strong className="ml-1">
                   Développeur Web {"&"} Web Mobile JavaScript (ReactJs/NodeJs),
@@ -22,7 +22,7 @@ const Qualifications = () => {
               </td>
             </tr>
             <tr className="align-top">
-              <td>2011</td>
+              <td>2011 {">"}</td>
               <td>
                 <strong className="ml-1">Diplôme d’Etat infirmier,</strong>{" "}
                 <span>Institut de Formation en Soins Infirmiers</span> de
