@@ -23,7 +23,7 @@ const About = () => {
                 Java JEE, cela fait maitenant plus d'un an que je code en toute
                 autonomie. <br />
                 Je suis à la recherche d'une opportunité en tant que
-                développeuse web.
+                développeuse web pour un poste en entreprise ou en tant que freelance.
               </p>
             </Col>
           </Row>

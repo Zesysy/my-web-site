@@ -3,43 +3,54 @@ const Experiences = () => {
     <>
       <article className="textExperience pl-md-4">
         <h4>Expériences</h4>
-        <table>
-          <tbody>
-            <tr className="align-top">
-              <td>06/20 - 07/20 (1 mois)</td>
-              <td>
-                <strong className="ml-1">
-                  Développeuse Java JEE / Spring,{" "}
-                </strong>
-                <span>Follow the Market</span>, Lille
-                <br />
-                Stage en télétravail pour une start-up proposant un outils de
-                suivi des performances sur le marché de leurs clients{" "}
-              </td>
-            </tr>
-            <tr className="align-top">
-              <td>08/19 - 11/19 (4 mois)</td>
-              <td>
-                <strong className="ml-1">
-                  Développeuse Javascript / ReactJs,{" "}
-                </strong>
-                <span>AudioWizard</span>, Lyon
-                <br />
-                Stage en télétravail dans une start-up proposant une solution
-                pour réaliser le suivi médical de patients d'audioprothésistes
-              </td>
-            </tr>
-
-            <tr className="align-top">
-              <td>2011 - 2019</td>
-              <td>
-                <strong className="ml-1"> Infirmière Diplômée d’État,</strong>{" "}
-                <span> GCS centre de cardiologie {"&"} Clinique Aguilera</span>{" "}
-                , Bayonne
-              </td>
-            </tr>
-          </tbody>
-        </table>
+        <p className="textExperience">
+          {"<"} novembre 2020 à aujourd'hui {"> "}
+          <strong>
+            Freelance Développeuse FullStack Javascript ReactJs / NodeJs
+          </strong>
+          <br />
+          <span>Club Créa,</span> Biarritz
+          <br />
+          Plateforme de mise en relation entreprises
+          <br />
+        </p>
+        <p className="textExperience">
+          {"<"} juin/juillet 2020 {"> "}
+          <strong>Développeuse Java JEE / Spring</strong>
+          <br />
+          <span>Follow the Market,</span> Lille
+          <br />
+          Projet en télétravail pour une start-up proposant un outils de suivi
+          des performances sur le marché de leurs client
+          <br />
+        </p>
+        <p className="textExperience">
+          {"<"} août/novembre 2019 {"> "}
+          <strong>Développeuse Javascript / ReactJs</strong>
+          <br />
+          <span>AudioWizard,</span> Lyon
+          <br />
+          Stage en télétravail dans une start-up proposant une solution pour
+          réaliser le suivi médical de patients d'audioprothésistes
+          <br />
+        </p>
+        <p className="textExperience">
+          {"<"} mai/juillet 2019 {"> "}
+          <strong>Développeuse Javascript / ReactJs</strong>
+          <br />
+          <span>InvestoWeb,</span> Bidart
+          <br />
+          Projet Agile afin de créer un nouvel outil de gestion pour une
+          entreprise de pompe funèbre.
+          <br />
+        </p>
+        <p className="textExperience">
+          {"<"} avril 2011/ janvier 2019 {"> "}
+          <strong>Infirmière Diplômée d’État</strong>
+          <br />
+          <span>GCS centre de cardiologie {"&"} Clinique Aguilera,</span> Bidart
+          <br />
+        </p>
       </article>
       <style jsx>
         {`
@@ -50,6 +61,7 @@ const Experiences = () => {
           span {
             color: var(--success);
             font-weight: 700;
+            text-indent: 15%;
           }
 
           .textExperience {

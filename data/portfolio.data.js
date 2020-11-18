@@ -1,5 +1,27 @@
 export const items = [
   {
+    overview: "/static/networking-crea.png",
+    title: "Networking Club Créa",
+    subtitle:
+      "Javascript - ReactJs - Redux - NodeJs - Express - Sequelize - Nodemailer - Bootstrap - PropTypes",
+    linkWebSite: "https://networking.crea-aquitaine.org/",
+    description: (
+      <p>
+        Plateforme de mise en relation entreprises.
+        <br />
+        Projet existant qui nécessitait la correction d'erreurs et l'amélioration de certaines fonctionnalités.
+        <br />
+        Réalisation :
+        <br />
+        - peristance des données via sessionsStorage
+        <br />
+        - possibilité pour un utilisateur d'envoyer un message aux administrateurs via la partie Contact
+        <br />
+        - récupération du mot de passe.
+      </p>
+    ),
+  },
+  {
     overview: "/static/followTheMap-overview.png",
     title: "Follow The Map",
     subtitle:

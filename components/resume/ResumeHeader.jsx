@@ -4,6 +4,7 @@ import {
   faEnvelopeOpenText,
   faMobileAlt,
 } from "@fortawesome/free-solid-svg-icons";
+import { faFly } from "@fortawesome/free-brands-svg-icons";
 import { Row, Col } from "reactstrap";
 
 const ResumeHeader = () => {
@@ -20,6 +21,11 @@ const ResumeHeader = () => {
     {
       logo: faHome,
       label: "64210, Arbonne",
+    },
+    {
+      logo: faFly,
+      label:
+        "Gironde, Haute-Garonne, Hérault, Île-de-France, Ille-et-Vilaine, Loire-Atlantique, Rhône",
     },
   ];
 
