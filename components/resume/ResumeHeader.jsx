@@ -2,9 +2,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHome,
   faEnvelopeOpenText,
-  faMobileAlt
+  faMobileAlt,
 } from "@fortawesome/free-solid-svg-icons";
-import {faFly} from "@fortawesome/free-brands-svg-icons"
+import { faFly } from "@fortawesome/free-brands-svg-icons";
 import { Row, Col } from "reactstrap";
 
 const ResumeHeader = () => {
@@ -24,7 +24,8 @@ const ResumeHeader = () => {
     },
     {
       logo: faFly,
-      label: "Gironde, Haute-Garonne, Hérault, Île-de-France, Ille-et-Vilaine, Loire-Atlantique , Rhône",
+      label:
+        "Gironde, Haute-Garonne, Hérault, Île-de-France, Ille-et-Vilaine, Loire-Atlantique, Rhône",
     },
   ];
 
