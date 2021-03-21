@@ -23,7 +23,7 @@ const Skills = () => {
         </Row>
         <Row className="justify-content-between m-0">
           <Col lg="6" md="5">
-            <p className="mt-1">
+            <p className="mt-1 textSkills">
               {itemsEnvironment.map((item, key) => (
                 <Fragment key={key}>
                   <FontAwesomeIcon
@@ -37,11 +37,11 @@ const Skills = () => {
                   <small>{item.text}</small>
                 </Fragment>
               ))}
-              - Agile - Kanban
+              - Subversion - Agile - Kanban
             </p>
           </Col>
           <Col lg="6" md="5">
-            <p className="mt-1">
+            <p className="mt-1 textSkills">
               Front :
               {itemsFront.map((item, key) => (
                 <Fragment key={key}>
@@ -55,9 +55,9 @@ const Skills = () => {
                   />
                 </Fragment>
               ))}
-              - NextJs - Redux - Thymeleaf
+              - NextJs - Redux - Thymeleaf - Antd
             </p>
-            <p className="mt-1">
+            <p className="mt-1 textSkills">
               Back :
               {itemsBack.map((item, key) => (
                 <Fragment key={key}>
