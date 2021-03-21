@@ -22,11 +22,11 @@ const ResumeHeader = () => {
       logo: faHome,
       label: "64210, Arbonne",
     },
-    {
-      logo: faFly,
-      label:
-        "Gironde, Haute-Garonne, Hérault, Île-de-France, Ille-et-Vilaine, Loire-Atlantique, Rhône",
-    },
+    // {
+    //   logo: faFly,
+    //   label:
+    //     "Gironde, Haute-Garonne, Hérault, Île-de-France, Ille-et-Vilaine, Loire-Atlantique, Rhône",
+    // },
   ];
 
   return (

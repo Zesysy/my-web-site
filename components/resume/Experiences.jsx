@@ -4,6 +4,15 @@ const Experiences = () => {
       <article className="textExperience pl-md-4">
         <h4>Expériences</h4>
         <p className="textExperience">
+          {"<"} décembre 2020 à aujourd'hui {"> "}
+          <strong>Développeuse front-end ReactJs</strong>
+          <br />
+          <span>Aquao,</span> Dax
+          <br />
+          Application de gestion dédiée à des centres de bien-être
+          <br />
+        </p>
+        <p className="textExperience">
           {"<"} novembre 2020 à aujourd'hui {"> "}
           <strong>
             Freelance Développeuse FullStack Javascript ReactJs / NodeJs

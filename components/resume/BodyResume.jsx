@@ -28,7 +28,7 @@ const BodyResume = () => {
         <a
           tag="button"
           className="btn btn-secondary float-right mr-4"
-          href="/static/myCv.pdf"
+          href="/static/cv_sylene_manusset.pdf"
           target="_blank"
         >
           Téléchargez mon CV
