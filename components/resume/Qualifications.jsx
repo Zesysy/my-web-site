@@ -10,7 +10,9 @@ const Qualifications = () => {
                 {"<"} 2020 {">"}
               </td>
               <td>
-                <strong className="ml-1">ConcepteurJava JEE ( Spring), </strong>
+                <strong className="ml-1">
+                  Concepteur Java JEE ( Spring),{" "}
+                </strong>
                 <span>Wild Code School</span> de Biarritz
               </td>
             </tr>

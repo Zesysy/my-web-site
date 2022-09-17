@@ -13,7 +13,7 @@ const Experiences = () => {
           <br />
         </p>
         <p className="textExperience">
-          {"<"} novembre 2020 à aujourd'hui {"> "}
+          {"<"} novembre 2020 à décembre 2021{"> "}
           <strong>
             Freelance Développeuse FullStack Javascript ReactJs / NodeJs
           </strong>

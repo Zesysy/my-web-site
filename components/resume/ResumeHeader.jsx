@@ -22,11 +22,6 @@ const ResumeHeader = () => {
       logo: faHome,
       label: "64210, Arbonne",
     },
-    // {
-    //   logo: faFly,
-    //   label:
-    //     "Gironde, Haute-Garonne, Hérault, Île-de-France, Ille-et-Vilaine, Loire-Atlantique, Rhône",
-    // },
   ];
 
   return (
@@ -36,7 +31,7 @@ const ResumeHeader = () => {
           <Col lg="9" md="7">
             <h3>Sylène Manusset</h3>
             <h4 className="text-center">
-              {"/*"}Développeuse Web Javascript {"&"} Java JEE {"*/"}
+              {"/*"}Développeuse Web Javascript / ReactJs {"*/"}
             </h4>
           </Col>
           <Col lg="3" md="5">
