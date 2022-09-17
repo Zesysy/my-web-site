@@ -2,8 +2,8 @@ export const itemsHobbies = [
   {
     text: (
       <p>
-        <strong>Voyage :</strong> seule (Venise, Édimbourg) ou à plusieurs
-        (Sicile, Canaries, Espagne, Londres)
+        <strong>Voyage :</strong> seule (Venise, Édimbourg, Copenhague) ou à
+        plusieurs (Sicile, Canaries, Espagne, Londres)
       </p>
     ),
   },
